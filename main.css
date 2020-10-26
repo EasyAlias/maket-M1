@@ -11,6 +11,7 @@ body {
 .container {
     max-width: 1440px;
     padding: 0px;
+    margin: 0 auto;
 }
 
 .s-header-left {
@@ -21,11 +22,11 @@ body {
     top: 21px;
 }
 
-ul {
+.s-neader ul {
     display: flex;
 }
 
-li {
+.s-neader li {
     list-style-type: none;
 }
 
@@ -87,7 +88,7 @@ li {
     display: flex;
 }
 
-h1 {
+.s-neader h1 {
     padding: 13px 0px 0px 122px;
     width: 628px;
     height: 190px;
@@ -103,10 +104,8 @@ h1 {
     height: 62px;
     font-size: 20px;
     line-height: 150%;
-    weight: 400;
+    font-weight: 400;
 }
-
-.s-img1-all {}
 
 .producer {
     padding: 5px 0px 0px 122px;
@@ -150,7 +149,7 @@ h1 {
     padding: 8px 0px 0px 270px;
 }
 
-h2 {
+.s-neader h2 {
     width: 365px;
     height: 93px;
     font-size: 55px;
@@ -168,9 +167,9 @@ h2 {
     margin-left: 121px;
 }
 
-p {
-    font-size: 24px;
-    line-height: 150%;
+.s-neader p {
+    font-size: 18px;
+    line-height: 130%;
 }
 
 .operator {
@@ -238,22 +237,6 @@ p {
     font-size: 18px;
     line-height: 130%;
     padding-top: 10px;
-}
-
-/* tablet */
-
-@media (max-width:1279px) {
-    .container {
-        width: 100%;
-    }
-}
-
-/* mobile */
-
-@media (max-width:991px) {
-    .container {
-        width: 100%;
-    }
 }
 
 .cursprogram-hr {
@@ -333,6 +316,7 @@ p {
 .cursprogram-teachers {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .cursprogram-teacher-block img {
@@ -399,7 +383,6 @@ p {
     display: none;
     padding: 25px;
     z-index: 1;
-    =======
 }
 
 /* tablet */
@@ -577,4 +560,20 @@ footer {
 .footer-copyright {
     font-size: 18px;
     line-height: 101.38%;
+}
+
+/* tablet */
+
+@media (max-width:1279px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* mobile */
+
+@media (max-width:991px) {
+    .container {
+        width: 100%;
+    }
 }
