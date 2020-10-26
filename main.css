@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     padding: 0;
     margin: 0;
 }
 
 body {
-    font-family: 'Roboto', monospace;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
     max-width: 1440px;
+    padding: 0px;
 }
 
 /* tablet */
@@ -28,4 +29,147 @@ body {
     }
 }
 
-/* test */
+.cursprogram-hr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 104px;
+}
+
+.cursprogram-hr h2 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-left: 128px;
+}
+
+.cursprogram-blackline {
+    width: 630px;
+    height: 14px;
+    background-color: black;
+}
+
+.cursprogram-card-block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 66px;
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.cursprogram-card {
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 399px;
+    height: 328px;
+    margin: 19px 19px;
+}
+
+.cursprogram-card p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 130%;
+    margin: 0 18px;
+}
+
+.cursprogram-card h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0 16px;
+    line-height: 90%;
+}
+
+.cursprogram-card__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 134px;
+    margin-top: 12px;
+}
+
+.monter {
+    position: absolute;
+    bottom: -99px;
+    right: 225px;
+    width: 253px;
+    height: 199px;
+}
+
+.cursprogram-teachers {
+    display: flex;
+    justify-content: center;
+}
+
+.cursprogram-teacher-block img {
+    width: 189;
+    height: 178;
+}
+
+.cursprogram-teacher-block {
+    display: flex;
+    align-items: center;
+    width: 550px;
+    position: relative;
+}
+
+.cursprogram-teacher-block__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cursprogram-teacher-block__text h3 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 101.38%;
+}
+
+.cursprogram-teacher-block__text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    margin-top: 10px;
+    ;
+}
+
+.cursprogram-teacher-block__info {
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 8px #5784C8;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    right: 10px;
+}
+
+.cursprogram-teacher-block__info:hover .cursprogram-teacher-block__info-message {
+    display: block;
+}
+
+.cursprogram-teacher-block__info-message {
+    position: absolute;
+    width: 399px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    display: none;
+    padding: 25px;
+    z-index: 1;
+}
