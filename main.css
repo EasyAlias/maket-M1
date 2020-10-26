@@ -23,7 +23,6 @@ body {
 
 ul {
     display: flex;
-
 }
 
 li {
@@ -37,7 +36,7 @@ li {
 .s-globe {
     padding: 94px 0px 0px 121px;
     width: 22px;
-    height: 21px;    
+    height: 21px;
 }
 
 .s-text-button1 {
@@ -107,9 +106,7 @@ h1 {
     weight: 400;
 }
 
-.s-img1-all {
-
-}
+.s-img1-all {}
 
 .producer {
     padding: 5px 0px 0px 122px;
@@ -129,7 +126,7 @@ h1 {
 .ss-aline-text {
     width: 483px;
     height: 200px;
-    background-color: #1E4681 ;
+    background-color: #1E4681;
     border-radius: 5px;
     transform: rotate(-4deg);
     margin: 50px auto 0px;
@@ -161,7 +158,7 @@ h2 {
     margin-top: 59px;
 }
 
-.s-main-2{
+.s-main-2 {
     display: flex;
 }
 
@@ -172,15 +169,14 @@ h2 {
 }
 
 p {
-    font-size: 24px;    
+    font-size: 24px;
     line-height: 150%;
 }
 
 .operator {
     width: 314px;
     height: 315px;
-    margin-left: 190px; 
-   
+    margin-left: 190px;
 }
 
 .ellipse2 {
@@ -243,8 +239,6 @@ p {
     line-height: 130%;
     padding-top: 10px;
 }
-
-
 
 /* tablet */
 
@@ -405,4 +399,182 @@ p {
     display: none;
     padding: 25px;
     z-index: 1;
+    =======
+}
+
+/* tablet */
+
+@media (max-width:1279px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* mobile */
+
+@media (max-width:991px) {
+    .container {
+        width: 100%;
+    }
+}
+
+h2 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+
+.review-curse {
+    background-color: #EFEFEF;
+    width: 100%;
+}
+
+.review-curse-container {
+    padding: 100px 0 110px 122px;
+}
+
+.review-curse-container h2 {
+    margin-bottom: 60px;
+}
+
+.review-curse-information {
+    width: 791px;
+    background: #FFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.review-curse-information p {
+    padding: 45px;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.review-curse-person {
+    display: flex;
+    padding-left: 45px;
+    padding-bottom: 35px;
+}
+
+.review-curse-person img {
+    margin-right: 50px;
+}
+
+.review-curse-name {
+    margin-top: 35px;
+}
+
+.review-curse-name h3 {
+    font-family: Roboto Slab;
+    font-size: 30px;
+    margin-bottom: 33px;
+    line-height: 101.38%;
+}
+
+.start-curse {
+    background-color: #9DC9C8;
+    width: 100%;
+}
+
+.start-curse-information {
+    padding: 185px 0 200px 122px;
+}
+
+.start-curse-information h2 {
+    padding-bottom: 70px;
+}
+
+.start-curse-information h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 20px;
+    line-height: 101.38%;
+}
+
+.start-curse-information-price {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    margin-bottom: 85px;
+    line-height: 101.38%;
+}
+
+.start-curse-information-columns {
+    display: flex;
+}
+
+.start-curse-information-columns div {
+    width: 300px;
+}
+
+.start-curse-information-columns div:first-child {
+    margin-right: 70px;
+}
+
+.start-curse-information-columns p {
+    font-size: 18px;
+    line-height: 101.38%;
+}
+
+footer {
+    background-color: #000;
+    width: 100%;
+}
+
+.footer-information {
+    padding: 50px 122px;
+    color: #fff;
+}
+
+.footer-information-columns {
+    display: flex;
+    margin-bottom: 145px;
+    justify-content: space-between;
+}
+
+.footer-white-rectangle {
+    width: 114px;
+    height: 14px;
+    background-color: #fff;
+    margin-bottom: 11px;
+}
+
+.footer-project-name {
+    font-family: Roboto Slab;
+    margin-bottom: 33px;
+    font-size: 25px;
+}
+
+.footer-media-icons {
+    display: flex;
+    width: 200px;
+    height: 35px;
+}
+
+.footer-media-icons img {
+    width: 20%;
+    margin-right: 23px;
+}
+
+.footer-contacts-phone {
+    margin-bottom: 25px;
+}
+
+.footer-contacts-phone img, .footer-contacts-mail img {
+    margin-right: 20px;
+}
+
+.footer-contacts span {
+    font-size: 25px;
+    line-height: 101.38%;
+}
+
+.footer-copyright {
+    font-size: 18px;
+    line-height: 101.38%;
 }
