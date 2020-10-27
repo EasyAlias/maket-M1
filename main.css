@@ -265,9 +265,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    padding: 0 66px;
     position: relative;
     margin-bottom: 120px;
+    padding-left: 66px;
+    box-sizing: border-box;
 }
 
 .cursprogram-card {
@@ -308,7 +309,7 @@ body {
 .monter {
     position: absolute;
     bottom: -99px;
-    right: 225px;
+    right: 110px;
     width: 253px;
     height: 199px;
 }
@@ -342,6 +343,12 @@ body {
     font-weight: bold;
     font-size: 30px;
     line-height: 101.38%;
+    margin-bottom: 10px;
+}
+
+.cursprogram-teacher-block__text-header {
+    display: flex;
+    align-items: center;
 }
 
 .cursprogram-teacher-block__text p {
@@ -350,13 +357,11 @@ body {
     font-weight: normal;
     font-size: 18px;
     line-height: 130%;
-    margin-top: 10px;
-    ;
 }
 
 .cursprogram-teacher-block__info {
     cursor: pointer;
-    width: 28px;
+    min-width: 28px;
     height: 28px;
     display: flex;
     align-items: center;
@@ -365,9 +370,7 @@ body {
     background: #FFFFFF;
     box-shadow: 1px 1px 8px #5784C8;
     border-radius: 50%;
-    position: absolute;
-    top: -20px;
-    right: 10px;
+    margin-left: 10px;
 }
 
 .cursprogram-teacher-block__info:hover .cursprogram-teacher-block__info-message {
