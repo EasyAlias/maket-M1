@@ -46,49 +46,42 @@ body {
   .container {
     padding: 0 70px;
   }
+
   .h2header {
     font-size: 1em;
   }
 }
-
 /* Sasha */
-
 .s-header-top {
   width: 52px;
   height: 30px;
   margin-top: 36px;
   margin-bottom: 36px;
 }
-
 .s-header-menu {
   display: flex;
   align-items: center;
   margin-top: 5px;
   margin-bottom: 13px;
 }
-
 .s-header-menu ul {
   padding: 0;
   margin: 0;
 }
-
 .s-header-menu li {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
 }
-
 .s-header-menu-button {
   display: flex;
   align-items: center;
   width: 80px;
 }
-
 .s-header-menu-button p {
   font-family: Roboto;
   font-size: 10px;
   line-height: 115%;
 }
-
 .s-header-menu-button-icon {
   width: 10.32px;
   height: 10.25px;
@@ -96,30 +89,25 @@ body {
   align-items: center;
   margin-right: 3px;
 }
-
 .s-header-menu-button-icon img {
   width: 100%;
   height: 100%;
 }
-
 .s-produser-block {
   display: flex;
   flex-direction: column;
   margin-bottom: 48px;
 }
-
 .s-produser-block-producer {
   width: 139px;
   height: 165px;
   position: relative;
   align-self: flex-end;
 }
-
 .s-produser-block-producer img {
   width: 100%;
   height: 100%;
 }
-
 .s-produser-block h1 {
   font-family: Roboto Slab;
   font-weight: bold;
@@ -127,12 +115,10 @@ body {
   line-height: 101.38%;
   margin-bottom: 17px;
 }
-
 .s-produser-block p {
   font-size: 10px;
   line-height: 150%;
 }
-
 .s-quotes {
   width: 206px;
   height: 73px;
@@ -145,7 +131,6 @@ body {
   margin-left: 6px;
   margin-bottom: 76px;
 }
-
 .s-quotes p {
   font-family: Roboto Slab;
   font-size: 11px;
@@ -153,31 +138,26 @@ body {
   color: #fff;
   font-weight: 300;
 }
-
 .s-quotes p:last-child {
   font-family: Roboto;
   text-align: right;
   font-size: 10px;
   margin: 7px 4px 0 0;
 }
-
 .s-about-curs {
   display: flex;
   flex-direction: column;
   margin-bottom: 61px;
 }
-
 .s-about-curs p {
   font-family: Roboto;
   font-size: 12px;
   line-height: 150%;
 }
-
-.s-about-curs p:last-child {
-  margin-top: 25px;
-  margin-bottom: 25px;
+.s-about-curs p:nth-child(2) {
+  margin-top: 20px;
+  margin-bottom: 16px;
 }
-
 .s-about-curs-operator {
   width: 143px;
   height: 146px;
@@ -187,12 +167,10 @@ body {
   margin-bottom: 34px;
   margin: 0 auto;
 }
-
 .s-about-curs-operator img {
   width: 100%;
   height: 100%;
 }
-
 .s-about-curs-operator-ellipse {
   width: 165px;
   height: 22px;
@@ -202,13 +180,11 @@ body {
   bottom: -11px;
   z-index: -1;
 }
-
 .s-timetable {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 42px;
 }
-
 .s-timetable-sound-producer {
   position: absolute;
   width: 112px;
@@ -216,17 +192,14 @@ body {
   right: 40px;
   bottom: 51px;
 }
-
 .s-timetable-sound-producer img {
   width: 100%;
   height: 100%;
 }
-
 .s-timetable__item {
   margin-right: 41px;
   margin-bottom: 27px;
 }
-
 .s-timetable__item h3 {
   font-family: Roboto;
   font-weight: bold;
@@ -234,13 +207,11 @@ body {
   line-height: 130%;
   margin-bottom: 3px;
 }
-
 .s-timetable__item p {
   font-family: Roboto;
   font-size: 10px;
   line-height: 130%;
 }
-
 .s-timetable-ellipse {
   width: 126px;
   height: 19px;
@@ -259,17 +230,20 @@ body {
     margin-top: 23px;
     margin-bottom: 51px;
   }
+
   .s-header-menu-button {
     display: flex;
     align-items: center;
     padding-right: 3px;
   }
+
   .s-header-menu-button p {
     padding-right: 0;
     font-family: Roboto;
     font-size: 12px;
     line-height: 115%;
   }
+
   .s-header-menu-button-icon {
     width: 12px;
     height: 12px;
@@ -278,20 +252,16 @@ body {
     padding-right: 5px;
   }
 }
-
 /* Boris */
-
 .b-form-of-classes {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 32px;
   padding-top: 9px;
 }
-
 .b-form-of-classes-block {
   margin-bottom: 48px;
 }
-
 .b-form-of-classes__item p {
   font-family: Roboto;
   font-size: 10px;
@@ -299,7 +269,6 @@ body {
   width: 178px;
   padding-bottom: 32px;
 }
-
 .b-form-of-classes__item-title {
   font-family: Roboto;
   font-weight: bold;
@@ -308,7 +277,6 @@ body {
   color: #1e4681;
   margin-bottom: 3px;
 }
-
 .b-form-of-classes-picture {
   width: 128px;
   height: 75px;
@@ -316,325 +284,312 @@ body {
   bottom: -19px;
   right: 47px;
 }
-
 .b-form-of-classes-picture img {
   width: 100%;
   height: 100%;
 }
-
 .b-what-we-known {
   display: flex;
   flex-direction: column;
   margin-bottom: 51px;
 }
-
 .b-what-we-known-picture {
   width: 178.38px;
   height: 87.88px;
   align-self: center;
 }
-
-<<<<<<< HEAD .b-what-we-known-list {
-  padding: 20px;
-  margin-bottom: 32px;
-  =======.b-what-we-known ul {
-    padding-left: 8px;
-    margin-bottom: 29px;
-    >>>>>>>mobileLayotFirst
-  }
-  .b-what-we-known-list li {
-    font-family: Roboto;
-    font-size: 12px;
-    line-height: 150%;
-    margin-bottom: 1px;
-  }
-  /* Vitalik */
-  .v-cursprogram-cards {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    position: relative;
-    margin-bottom: 70px;
-    justify-content: center;
-    margin-top: 42px;
-  }
-  .v-cursprogram-blackline {
-    position: absolute;
-    background-color: black;
-    height: 6.52px;
-    width: 18%;
-    right: 0;
-    top: 12px;
-  }
-  .v-cursprogram-card {
-    background: #ffffff;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 13px;
-    width: 185px;
-    height: 154px;
-    margin: 11px 19px;
-  }
-  .v-cursprogram-card img {
-    width: 185px;
-    height: 75px;
-  }
-  .v-cursprogram-card h3 {
-    font-family: Roboto;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 130%;
-    margin: 0 0 0 4px;
-    line-height: 90%;
-  }
-  .v-cursprogram-card p {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 130%;
-    padding-left: 4px;
-  }
-  .v-cursprogram-card__text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 60px;
-    padding-left: 6px;
-    margin-top: 4px;
-  }
-  .v-cursprogram-monter {
-    position: absolute;
-    bottom: -99px;
-    right: 225px;
-    width: 253px;
-    height: 199px;
-    display: none;
-  }
-  .v-cursprogram-teachers {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 6px;
-  }
-  .v-cursprogram-teacher-block {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    margin-bottom: 78px;
-  }
-  <<<<<<< HEAD .v-cursprogram-teacher-block img {
-    width: 89px;
-    height: 83px;
-  }
-  =======>>>>>>>mobileLayotFirst .v-cursprogram-teacher-block__info span {
-    display: none;
-  }
-  .v-cursprogram-teacher-block__info-message {
-    width: 207px;
-    background: #ffffff;
-    border-radius: 30px;
-    display: box;
-    z-index: 1;
-    font-family: Roboto;
-    font-size: 10px;
-    line-height: 130%;
-    padding-left: 32%;
-  }
-  <<<<<<< HEAD=======.v-cursprogram-teacher-block__foto {
-    width: 89px;
-    height: 83px;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-  }
-  .v-cursprogram-teacher-block__foto img {
-    width: 100%;
-    height: 100%;
-  }
-  >>>>>>>mobileLayotFirst .v-cursprogram-teacher-block__text {
-    display: flex;
-    align-items: center;
-    margin-top: 12px;
-    padding: 0 0 0 0;
-  }
-  .v-cursprogram-teacher-block__text span {
-    width: 241px;
-  }
-  .v-cursprogram-teacher-block__text h3 {
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 101.38%;
-    margin-bottom: 8px;
-  }
-  .v-cursprogram-teacher-block__text p {
-    font-family: Roboto;
-    font-size: 10px;
-    line-height: 130%;
-  }
-  /* katya */
-  .k-bg-review {
-    background-color: #efefef;
-  }
-  .k-review-curse {
-    padding-top: 46px;
-    padding-bottom: 50px;
-  }
-  .k-review-curse-container {
-    /* padding: 100px 0 110px 122px; */
-  }
-  .k-review-curse-container h2 {
-    /* margin-bottom: 60px; */
-    font-family: Roboto Slab;
-    font-weight: bold;
-    font-size: 26px;
-    margin-bottom: 28px;
-    line-height: 101.38%;
-    padding-right: 12px;
-  }
-  .k-review-curse-information {
-    /* width: 791px; */
-    width: 100%;
-    background: #fff;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 11px;
-    padding: 22px;
-    padding-bottom: 16px;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-  }
-  .k-review-curse-information p {
-    font-family: Roboto;
-    font-size: 10px;
-    line-height: 150%;
-  }
-  .k-review-curse-person {
-    display: flex;
-  }
-  .k-review-curse-person img {
-    width: 80px;
-    height: 84px;
-    padding-right: 13px;
-    padding-top: 12px;
-  }
-  .k-review-curse-person h3 {
-    padding-top: 31px;
-    margin-bottom: 1px;
-  }
-  .k-review-curse-name h3 {
-    font-family: Roboto Slab;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 101.38%;
-  }
-  .k-review-curse-name img {
-    width: 14px;
-    height: 18px;
-  }
-  .k-bg-start-curse {
-    background-color: #9dc9c8;
-    padding: 47px 0;
-  }
-  .k-start-curse-information {
-    /* padding: 185px 0 200px 122px; */
-    padding: 12px 0;
-  }
-  .k-start-curse-information h2 {
-    padding-bottom: 15px;
-    font-family: Roboto Slab;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 101.38%;
-    padding-right: 75px;
-  }
-  .k-start-curse-information h3 {
-    font-family: Roboto;
-    font-size: 12px;
-    line-height: 101.38%;
-    padding-bottom: 4px;
-  }
-  .k-start-curse-information-price {
-    font-family: Roboto;
-    font-size: 37px;
-    line-height: 101.38%;
-    margin-top: 3px;
-    margin-bottom: 37px;
-  }
-  .k-start-curse-information-columns {
-    display: flex;
-  }
-  .k-start-curse-information-columns div {
-    /* width: 300px; */
-  }
-  .k-start-curse-information-columns div:first-child {
-    /* margin-right: 70px; */
-  }
-  .k-start-curse-information-columns p {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 101.38%;
-    margin-top: 6px;
-    padding-right: 7px;
-  }
-  .k-bg-footer {
-    background-color: #000;
-    padding: 26px 0px 20px 0px;
-  }
-  .k-footer-information {
-    color: white;
-    box-sizing: border-box;
-  }
-  .k-footer-information-columns {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-  }
-  .k-footer-white-rectangle {
-    width: 53px;
-    height: 6px;
-    background-color: #fff;
-  }
-  .k-footer-project-name {
-    font-family: Roboto Slab;
-    margin-bottom: 11px;
-    font-size: 11px;
-    line-height: 110%;
-  }
-  .k-footer-media-icons {
-    display: flex;
-    width: 200px;
-    height: 35px;
-  }
-  .k-footer-media-icons img {
-    width: 15.38px;
-    height: 15.38px;
-    margin-right: 13px;
-  }
-  .k-footer-contacts {
-    margin-top: 18px;
-    margin-bottom: 62px;
-  }
-  .k-footer-contacts img {
-    width: 12.58px;
-    height: 12.58px;
-  }
-  .k-footer-contacts span {
-    font-family: Roboto;
-    font-size: 12px;
-    line-height: 101.38%;
-  }
-  .k-footer-contacts-phone {
-    margin-bottom: 2px;
-  }
-  .k-footer-copyright {
-    font-family: Roboto;
-    font-size: 10px;
-    line-height: 101.38%;
-    <<<<<<< HEAD
-  }
-  =======
+.b-what-we-known ul {
+  padding-left: 8px;
+  margin-bottom: 29px;
+}
+.b-what-we-known-list li {
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 150%;
+  margin-bottom: 1px;
 }
 
->>>>>>>mobileLayotFirst
+/* Vitalik */
+.v-cursprogram-cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+  margin-bottom: 70px;
+  justify-content: center;
+  margin-top: 42px;
+}
+.v-cursprogram-blackline {
+  position: absolute;
+  background-color: black;
+  height: 6.52px;
+  width: 18%;
+  right: 0;
+  top: 12px;
+}
+.v-cursprogram-card {
+  background: #ffffff;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 13px;
+  width: 185px;
+  height: 154px;
+  margin: 11px 19px;
+}
+.v-cursprogram-card img {
+  width: 185px;
+  height: 75px;
+}
+.v-cursprogram-card h3 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 130%;
+  margin: 0 0 0 4px;
+  line-height: 90%;
+}
+.v-cursprogram-card p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 130%;
+  padding-left: 4px;
+}
+.v-cursprogram-card__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60px;
+  padding-left: 6px;
+  margin-top: 4px;
+}
+.v-cursprogram-monter {
+  position: absolute;
+  bottom: -99px;
+  right: 225px;
+  width: 253px;
+  height: 199px;
+  display: none;
+}
+.v-cursprogram-teachers {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6px;
+}
+.v-cursprogram-teacher-block {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-bottom: 78px;
+}
+.v-cursprogram-teacher-block__info span {
+  display: none;
+}
+.v-cursprogram-teacher-block__info-message {
+  width: 207px;
+  background: #ffffff;
+  border-radius: 30px;
+  display: box;
+  z-index: 1;
+  font-family: Roboto;
+  font-size: 10px;
+  line-height: 130%;
+  padding-left: 32%;
+}
+.v-cursprogram-teacher-block__foto {
+  width: 89px;
+  height: 83px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.v-cursprogram-teacher-block__foto img {
+  width: 100%;
+  height: 100%;
+}
+.v-cursprogram-teacher-block__text {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  padding: 0 0 0 0;
+}
+.v-cursprogram-teacher-block__text span {
+  width: 241px;
+}
+.v-cursprogram-teacher-block__text h3 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 101.38%;
+  margin-bottom: 8px;
+}
+.v-cursprogram-teacher-block__text p {
+  font-family: Roboto;
+  font-size: 10px;
+  line-height: 130%;
+}
+
+/* katya */
+.k-bg-review {
+  background-color: #efefef;
+}
+.k-review-curse {
+  padding-top: 46px;
+  padding-bottom: 50px;
+}
+.k-review-curse-container {
+  /* padding: 100px 0 110px 122px; */
+}
+.k-review-curse-container h2 {
+  /* margin-bottom: 60px; */
+  font-family: Roboto Slab;
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 28px;
+  line-height: 101.38%;
+  padding-right: 12px;
+}
+.k-review-curse-information {
+  /* width: 791px; */
+  width: 100%;
+  background: #fff;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  padding: 22px;
+  padding-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.k-review-curse-information p {
+  font-family: Roboto;
+  font-size: 10px;
+  line-height: 150%;
+}
+.k-review-curse-person {
+  display: flex;
+}
+.k-review-curse-person img {
+  width: 80px;
+  height: 84px;
+  padding-right: 13px;
+  padding-top: 12px;
+}
+.k-review-curse-person h3 {
+  padding-top: 31px;
+  margin-bottom: 1px;
+}
+.k-review-curse-name h3 {
+  font-family: Roboto Slab;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 101.38%;
+}
+.k-review-curse-name img {
+  width: 14px;
+  height: 18px;
+}
+.k-bg-start-curse {
+  background-color: #9dc9c8;
+  padding: 47px 0;
+}
+.k-start-curse-information {
+  /* padding: 185px 0 200px 122px; */
+  padding: 12px 0;
+}
+.k-start-curse-information h2 {
+  padding-bottom: 15px;
+  font-family: Roboto Slab;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 101.38%;
+  padding-right: 75px;
+}
+.k-start-curse-information h3 {
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 101.38%;
+  padding-bottom: 4px;
+}
+.k-start-curse-information-price {
+  font-family: Roboto;
+  font-size: 37px;
+  line-height: 101.38%;
+  margin-top: 3px;
+  margin-bottom: 37px;
+}
+.k-start-curse-information-columns {
+  display: flex;
+}
+.k-start-curse-information-columns div {
+  /* width: 300px; */
+}
+.k-start-curse-information-columns div:first-child {
+  /* margin-right: 70px; */
+}
+.k-start-curse-information-columns p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 101.38%;
+  margin-top: 6px;
+  padding-right: 7px;
+}
+.k-bg-footer {
+  background-color: #000;
+  padding: 26px 0px 20px 0px;
+}
+.k-footer-information {
+  color: white;
+  box-sizing: border-box;
+}
+.k-footer-information-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.k-footer-white-rectangle {
+  width: 53px;
+  height: 6px;
+  background-color: #fff;
+}
+.k-footer-project-name {
+  font-family: Roboto Slab;
+  margin-bottom: 11px;
+  font-size: 11px;
+  line-height: 110%;
+}
+.k-footer-media-icons {
+  display: flex;
+  width: 200px;
+  height: 35px;
+}
+.k-footer-media-icons img {
+  width: 15.38px;
+  height: 15.38px;
+  margin-right: 13px;
+}
+.k-footer-contacts {
+  margin-top: 18px;
+  margin-bottom: 62px;
+}
+.k-footer-contacts img {
+  width: 12.58px;
+  height: 12.58px;
+}
+.k-footer-contacts span {
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 101.38%;
+}
+.k-footer-contacts-phone {
+  margin-bottom: 2px;
+}
+.k-footer-copyright {
+  font-family: Roboto;
+  font-size: 10px;
+  line-height: 101.38%;
+}
+
+/*# sourceMappingURL=main.css.map */
