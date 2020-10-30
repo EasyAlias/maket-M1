@@ -69,14 +69,14 @@ body {
   margin-bottom: 13px;
 }
 
-.s-header-menu ul {
-  padding: 0;
-  margin: 0;
+.s-header-menu li:first-child {
+  margin-right: 13px;
+  width: 73px;
+
 }
 
-.s-header-menu li {
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
+.s-header-menu li:nth-child(2) {
+  width: 75px;
 }
 
 .s-header-menu-button {
@@ -92,11 +92,11 @@ body {
 }
 
 .s-header-menu-button-icon {
-  width: 10.32px;
+  width: 11px;
   height: 10.25px;
   display: flex;
   align-items: center;
-  margin-right: 3px;
+  margin-right: 4px;
 }
 
 .s-header-menu-button-icon img {
@@ -132,7 +132,7 @@ body {
 
 .s-produser-block p {
   font-size: 10px;
-  line-height: 150%;
+  line-height: 149%;
 }
 
 .s-quotes {
@@ -166,7 +166,7 @@ body {
 .s-about-curs {
   display: flex;
   flex-direction: column;
-  margin-bottom: 61px;
+  margin-bottom: 59px;
 }
 
 .s-about-curs p {
@@ -175,8 +175,9 @@ body {
   line-height: 150%;
 }
 
+
 .s-about-curs p:nth-child(2) {
-  margin-top: 20px;
+  margin-top: 18px;
   margin-bottom: 16px;
 }
 
