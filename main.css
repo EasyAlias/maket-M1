@@ -4,13 +4,25 @@
   margin: 0;
 }
 
+.maket {
+  position: absolute;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+}
+
+.maketbody {
+  opacity: 0.8;
+  z-index: 999;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
 
 .container {
   width: 100%;
-  padding: 0 36px;
+  padding: 0 35px;
   box-sizing: border-box;
   position: relative;
   max-width: 1440px;
@@ -27,38 +39,55 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 101.38%;
-  margin-bottom: 36px;
+  margin-bottom: 26px;
 }
 
+@media (min-width: 834px) {
+  .container {
+    padding: 0 70px;
+  }
+
+  .h2header {
+    font-size: 1em;
+  }
+}
 /* Sasha */
 .s-header-top {
   width: 52px;
   height: 30px;
-  margin-top: 34px;
+  margin-top: 36px;
   margin-bottom: 36px;
 }
 .s-header-menu {
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
+  margin-top: 5px;
+  margin-bottom: 13px;
+}
+.s-header-menu ul {
+  padding: 0;
+  margin: 0;
+}
+.s-header-menu li {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 .s-header-menu-button {
   display: flex;
   align-items: center;
+  width: 80px;
 }
 .s-header-menu-button p {
-  padding-right: 10px;
   font-family: Roboto;
   font-size: 10px;
   line-height: 115%;
-  margin-right: 5px;
 }
 .s-header-menu-button-icon {
-  width: 10px;
-  height: 10px;
+  width: 10.32px;
+  height: 10.25px;
   display: flex;
   align-items: center;
-  padding-right: 5px;
+  margin-right: 3px;
 }
 .s-header-menu-button-icon img {
   width: 100%;
@@ -67,14 +96,13 @@ body {
 .s-produser-block {
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px;
+  margin-bottom: 48px;
 }
 .s-produser-block-producer {
-  width: 142px;
-  height: 175px;
+  width: 139px;
+  height: 165px;
   position: relative;
   align-self: flex-end;
-  position: relative;
 }
 .s-produser-block-producer img {
   width: 100%;
@@ -85,22 +113,23 @@ body {
   font-weight: bold;
   font-size: 37px;
   line-height: 101.38%;
-  margin-bottom: 20px;
+  margin-bottom: 17px;
 }
 .s-produser-block p {
   font-size: 10px;
   line-height: 150%;
 }
 .s-quotes {
-  width: 211px;
-  height: 65px;
+  width: 206px;
+  height: 73px;
   background-color: #1e4681;
   border-radius: 3px;
   transform: rotate(-4deg);
-  padding: 10px;
+  padding: 10px 0px 10px 10px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 67px;
+  margin-left: 6px;
+  margin-bottom: 76px;
 }
 .s-quotes p {
   font-family: Roboto Slab;
@@ -113,24 +142,25 @@ body {
   font-family: Roboto;
   text-align: right;
   font-size: 10px;
+  margin: 7px 4px 0 0;
 }
 .s-about-curs {
   display: flex;
   flex-direction: column;
-  margin-bottom: 34px;
+  margin-bottom: 61px;
 }
 .s-about-curs p {
   font-family: Roboto;
   font-size: 12px;
   line-height: 150%;
 }
-.s-about-curs p:last-child {
-  margin-top: 25px;
-  margin-bottom: 25px;
+.s-about-curs p:nth-child(2) {
+  margin-top: 20px;
+  margin-bottom: 16px;
 }
 .s-about-curs-operator {
-  width: 148px;
-  height: 149px;
+  width: 143px;
+  height: 146px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,39 +172,40 @@ body {
   height: 100%;
 }
 .s-about-curs-operator-ellipse {
-  width: 213px;
-  height: 45px;
+  width: 165px;
+  height: 22px;
   background-color: #efefef;
   border-radius: 50%;
   position: absolute;
-  bottom: -21px;
+  bottom: -11px;
   z-index: -1;
 }
 .s-timetable {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 43px;
+  padding-bottom: 42px;
 }
 .s-timetable-sound-producer {
   position: absolute;
-  width: 108px;
-  height: 102px;
-  right: 35px;
-  bottom: 46px;
+  width: 112px;
+  height: 96px;
+  right: 40px;
+  bottom: 51px;
 }
 .s-timetable-sound-producer img {
   width: 100%;
   height: 100%;
 }
 .s-timetable__item {
-  margin-right: 33px;
-  margin-bottom: 30px;
+  margin-right: 41px;
+  margin-bottom: 27px;
 }
 .s-timetable__item h3 {
   font-family: Roboto;
   font-weight: bold;
   font-size: 12px;
   line-height: 130%;
+  margin-bottom: 3px;
 }
 .s-timetable__item p {
   font-family: Roboto;
@@ -192,11 +223,44 @@ body {
   z-index: -1;
 }
 
+@media (min-width: 834px) {
+  .s-header-top {
+    width: 66px;
+    height: 37px;
+    margin-top: 23px;
+    margin-bottom: 51px;
+  }
+
+  .s-header-menu-button {
+    display: flex;
+    align-items: center;
+    padding-right: 3px;
+  }
+
+  .s-header-menu-button p {
+    padding-right: 0;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 115%;
+  }
+
+  .s-header-menu-button-icon {
+    width: 12px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+  }
+}
 /* Boris */
 .b-form-of-classes {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 32px;
+  padding-top: 9px;
+}
+.b-form-of-classes-block {
+  margin-bottom: 48px;
 }
 .b-form-of-classes__item p {
   font-family: Roboto;
@@ -211,13 +275,14 @@ body {
   font-size: 12px;
   line-height: 130%;
   color: #1e4681;
+  margin-bottom: 3px;
 }
 .b-form-of-classes-picture {
   width: 128px;
   height: 75px;
   position: absolute;
-  bottom: -32px;
-  right: 26px;
+  bottom: -19px;
+  right: 47px;
 }
 .b-form-of-classes-picture img {
   width: 100%;
@@ -226,23 +291,22 @@ body {
 .b-what-we-known {
   display: flex;
   flex-direction: column;
-  margin-bottom: 48px;
+  margin-bottom: 51px;
 }
 .b-what-we-known-picture {
-  width: 145.38px;
-  height: 83.88px;
-  right: 0;
-  bottom: 0;
+  width: 178.38px;
+  height: 87.88px;
   align-self: center;
 }
-.b-what-we-known-list {
-  padding: 20px;
-  margin-bottom: 32px;
+.b-what-we-known ul {
+  padding-left: 8px;
+  margin-bottom: 29px;
 }
 .b-what-we-known-list li {
   font-family: Roboto;
   font-size: 12px;
   line-height: 150%;
+  margin-bottom: 1px;
 }
 
 /* Vitalik */
@@ -251,8 +315,9 @@ body {
   flex-wrap: wrap;
   width: 100%;
   position: relative;
-  margin-bottom: 67px;
+  margin-bottom: 70px;
   justify-content: center;
+  margin-top: 42px;
 }
 .v-cursprogram-blackline {
   position: absolute;
@@ -268,7 +333,7 @@ body {
   border-radius: 13px;
   width: 185px;
   height: 154px;
-  margin: 12px 19px;
+  margin: 11px 19px;
 }
 .v-cursprogram-card img {
   width: 185px;
@@ -317,10 +382,6 @@ body {
   flex-direction: column;
   margin-bottom: 78px;
 }
-.v-cursprogram-teacher-block img {
-  width: 89px;
-  height: 83px;
-}
 .v-cursprogram-teacher-block__info span {
   display: none;
 }
@@ -335,13 +396,24 @@ body {
   line-height: 130%;
   padding-left: 32%;
 }
+.v-cursprogram-teacher-block__foto {
+  width: 89px;
+  height: 83px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.v-cursprogram-teacher-block__foto img {
+  width: 100%;
+  height: 100%;
+}
 .v-cursprogram-teacher-block__text {
   display: flex;
   align-items: center;
+  margin-top: 12px;
+  padding: 0 0 0 0;
 }
 .v-cursprogram-teacher-block__text span {
-  width: 400px;
-  padding-left: 9px;
+  width: 241px;
 }
 .v-cursprogram-teacher-block__text h3 {
   font-family: Roboto Slab;
@@ -519,5 +591,3 @@ body {
   font-size: 10px;
   line-height: 101.38%;
 }
-
-/*# sourceMappingURL=main.css.map */
