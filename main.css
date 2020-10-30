@@ -355,7 +355,7 @@ body {
   flex-wrap: wrap;
   width: 100%;
   position: relative;
-  margin-bottom: 70px;
+  margin-bottom: 62px;
   justify-content: center;
   margin-top: 42px;
 }
@@ -375,7 +375,8 @@ body {
   border-radius: 13px;
   width: 185px;
   height: 154px;
-  margin: 11px 19px;
+  margin-top: 10px;
+  margin-bottom: 13px;
 }
 
 .v-cursprogram-card img {
@@ -423,13 +424,14 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 6px;
+  padding-top: 6px;
 }
 
 .v-cursprogram-teacher-block {
   display: flex;
   position: relative;
   flex-direction: column;
-  margin-bottom: 78px;
+  margin-bottom: 75px;
 }
 
 .v-cursprogram-teacher-block__info span {
@@ -440,19 +442,16 @@ body {
   width: 207px;
   background: #ffffff;
   border-radius: 30px;
-  display: box;
   z-index: 1;
   font-family: Roboto;
   font-size: 10px;
   line-height: 130%;
-  padding-left: 32%;
+  padding-left: 29%;
+  padding-top: 3px;
 }
 
 .v-cursprogram-teacher-block__foto {
-  width: 89px;
-  height: 83px;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
+  width: 70px;
 }
 
 .v-cursprogram-teacher-block__foto img {
@@ -463,12 +462,14 @@ body {
 .v-cursprogram-teacher-block__text {
   display: flex;
   align-items: center;
-  margin-top: 12px;
+  margin-top: 11px;
+  margin-bottom: 5px;
   padding: 0 0 0 0;
 }
 
 .v-cursprogram-teacher-block__text span {
-  width: 241px;
+  width: 200px;
+  padding-left: 18px;
 }
 
 .v-cursprogram-teacher-block__text h3 {
@@ -477,7 +478,7 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 101.38%;
-  margin-bottom: 8px;
+  margin-bottom: 7px;
 }
 
 .v-cursprogram-teacher-block__text p {
