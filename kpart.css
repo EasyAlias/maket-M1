@@ -1,0 +1,403 @@
+.review_wrapper {
+	background-color: #efefef;
+}
+  
+.review_curse {
+  	padding: 36px 0 52px;
+}
+  
+.review_curse_title {
+	font: bold 26px/101.38% 'Roboto Slab';
+	margin-bottom: 28px;
+	padding-right: 14px;
+}
+  
+.review_curse_information {
+	width: 100%;
+	background: #fff;
+	box-shadow: 0.5px 0.5px 9px rgba(0, 0, 0, 0.25);
+	border-radius: 14px;
+	padding: 20px 22px 16px 22px;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+}
+
+.review_curse_text {
+	font: 10px/150% 'Roboto';
+	margin-bottom: 2px;
+}
+
+.review_curse_person {
+  	display: flex;
+}
+
+.review_curse_img {
+	width: 80px;
+	height: 84px;
+	padding: 12px 13px 0 0;
+}
+
+.review_curse_subtitle {
+	font: bold 14px/101.38% 'Roboto Slab';
+	margin: 31px 0 19px;
+}
+
+.review_curse_icon {
+	width: 14.91px;
+	height: 17.2px;
+}
+
+.start_curse_wrapper {
+	background-color: #9dc9c8;
+	padding: 51px 0 60px 0;
+}
+
+.start_curse_information {
+  	padding: 12px 0;
+}
+
+.start_curse_title {
+	padding: 0 76px 33px 0;
+	font: bold 26px/101.38% 'Roboto Slab';
+}
+
+.start_curse_subtitle {
+  	font: 12px/101.38% 'Roboto';
+}
+
+.start_curse_price {
+	font: 37px/101.38% 'Roboto';
+	margin: 3px 0 35px;
+}
+
+.start_curse_list {
+  	display: flex;
+}
+
+.start_curse_list_item {
+	width: 46%;
+}
+
+.start_curse_text {
+	font: 10px/101.38% 'Roboto';
+	margin-top: 6px; 
+}
+
+.start_curse_mr {
+  	margin-right: 29px;
+}
+
+.footer_wrapper {
+	background-color: #000;
+	padding: 24px 0 20px 0;
+}
+
+.footer_information {
+	color: white;
+	box-sizing: border-box;
+	margin-left: 3px;
+}
+
+.footer_information_list {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.footer_logo_white {
+	margin-bottom: 10px;
+}
+
+.footer_media_icons {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.footer_media_item {
+	width: 15.38px;
+	height: 15.38px;
+	margin-right: 10px;
+}
+
+.footer_contacts {
+  	margin-bottom: 55px;
+}
+
+.footer_contacts_icon {
+	width: 13px;
+	height: 13px;
+	margin-right: 7px;
+}
+
+.footer_contacts_text {
+  	font: 12px/101.38% 'Roboto';
+}
+
+.footer_mail {
+  	height: 9px;
+}
+
+.footer_copyright {
+  	font: 10px/101.38% 'Roboto';
+}
+
+@media screen and (min-width: 834px) {
+	.review_curse {
+		padding: 56px 0 65px;
+    }
+
+	.review_curse_title {
+		font-size: 32px;
+		margin-bottom: 42px;
+	}
+	  
+	.review_curse_information {
+		width: 66.5%;
+		box-shadow: 0.5px 0.5px 11.5px rgba(0, 0, 0, 0.25);
+		border-radius: 17px;
+		padding: 23px 22px 16px 29px;
+	}
+
+	.review_curse_text {
+		font-size: 12px;
+		margin-bottom: 7px;
+	}
+
+  	.review_curse_img {
+	  	width: 90px;
+	  	height: 97.8px;
+	  	padding-right: 26px;
+  	}
+  
+  	.review_curse_subtitle {
+		font-size: 17px;
+		margin-top: 33px;
+  	}
+  
+  	.review_curse_icon {
+	  	width: 18.5px;
+	  	height: 17.9px;
+	}
+
+	.start_curse_wrapper {
+		padding: 85px 0 102px 0;
+	}
+	
+	.start_curse_information {
+		padding: 16px 0;
+	}
+	
+	.start_curse_title {
+		padding-bottom: 39px;
+		font-size: 32px;
+	}
+	
+	.start_curse_subtitle {
+		font-size: 14px;
+	}
+	
+	.start_curse_price {
+		font-size: 46px;
+		margin-bottom: 44px;
+	}
+
+	.start_curse_list {
+		display: flex;
+		width: 55.5%;
+    }
+	
+	.start_curse_text {
+		margin-top: 11px; 
+	}
+	
+	.start_curse_mr {
+		margin-right: 40px;
+	}
+	
+	.footer_wrapper {
+		padding: 30px 0 27px 0;
+	}
+	
+	.footer_information {
+		margin-left: 0;
+		margin-right: 40px;
+	}
+	
+	.footer_information_list {
+		flex-direction: row;
+		margin-bottom: 80px;
+	}
+	
+	.footer_logo_white {
+		margin-bottom: 13px;
+		width: 66.6px;
+		height: 39.4px;
+	}
+	
+	.footer_media_icons {
+		margin-bottom: 0;
+	}
+	
+	.footer_media_item {
+		width: 19px;
+		height: 19px;
+		margin-right: 12px;
+	}
+
+	.footer_contacts {
+		margin-bottom: 0;
+	}
+
+	.footer_contacts_phone {
+		margin-bottom: 7px;
+	}
+	
+	.footer_contacts_icon {
+		width: 15px;
+		height: 15px;
+		margin-right: 7px;
+	}
+	
+	.footer_contacts_text {
+		font-size: 14px;
+	}
+	
+	.footer_mail {
+		height: 10.43px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.review_curse {
+		padding: 91px 0 107px 52px;
+    }
+
+	.review_curse_title {
+		font-size: 55px;
+		margin-bottom: 70px;
+	}
+	  
+	.review_curse_information {
+		width: 64%;
+		box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+		border-radius: 30px;
+		padding: 45px 45px 30px 45px;
+	}
+
+	.review_curse_text {
+		font-size: 20px;
+		margin-bottom: 23px;
+	}
+
+  	.review_curse_img {
+	  	width: 165px;
+	  	height: 169px;
+	  	padding-right: 40px;
+  	}
+  
+  	.review_curse_subtitle {
+		font-size: 30px;
+		margin: 49px 0 30px 0;
+  	}
+  
+  	.review_curse_icon {
+	  	width: 32px;
+	  	height: 31px;
+	}
+
+	.start_curse_wrapper {
+		padding: 163px 0 185px 52px;
+	}
+	
+	.start_curse_information {
+		padding: 16px 0;
+	}
+	
+	.start_curse_title {
+		padding-bottom: 65px;
+		font-size: 55px;
+	}
+	
+	.start_curse_subtitle {
+		font-size: 25px;
+	}
+	
+	.start_curse_price {
+		font-size: 80px;
+		margin-bottom: 76px;
+	}
+
+	.start_curse_list {
+		display: flex;
+		width: 55.5%;
+    }
+	
+	.start_curse_list_item {
+		width: 43%;
+	}
+
+	.start_curse_text {
+		margin-top: 18px; 
+		font-size: 18px;
+	}
+	
+	.start_curse_mr {
+		margin-right: 55px;
+	}
+	
+	.footer_wrapper {
+		padding: 30px 0 27px 0;
+	}
+	
+	.footer_information {
+		margin: 20px 103px 0 52px;
+	}
+	
+	.footer_information_list {
+		margin-bottom: 80px;
+	}
+	
+	.footer_logo_white {
+		margin-bottom: 27px;
+		width: 115px;
+		height: 68px;
+	}
+	
+	.footer_media_icons {
+		margin-bottom: 60px;
+	}
+	
+	.footer_media_item {
+		width: 33px;
+		height: 33px;
+		margin-right: 20px;
+	}
+	
+	.footer_contacts {
+		margin-top: 2px;
+		margin-right: 0;
+	}
+
+	.footer_contacts_phone {
+		margin-bottom: 17px;
+	}
+	
+	.footer_contacts_icon {
+		width: 27px;
+		height: 27px;
+		margin-right: 22px;
+	}
+	
+	.footer_contacts_text {
+		font-size: 25px;
+	}
+	
+	.footer_mail {
+		height: 18px;
+	}
+
+	.footer_copyright {
+		font-size: 18px;
+	}
+}
