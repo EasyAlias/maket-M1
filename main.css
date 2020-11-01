@@ -6,11 +6,15 @@
 
 .maket {
   position: absolute;
-  margin: 0 auto;
+  width: 100%;
   padding: 0;
   border: 0;
   top: 0;
   left: 0;
+}
+
+.t, .d {
+  display: none;
 }
 
 .maketbody {
@@ -25,6 +29,7 @@ body {
 .container {
   width: 100%;
   padding: 0 35px;
+  margin: 0;
   box-sizing: border-box;
   position: relative;
   max-width: 1440px;
@@ -34,6 +39,7 @@ body {
 
 .container-full-size {
   width: 100%;
+  overflow: hidden;
 }
 
 .h2header {
@@ -42,15 +48,6 @@ body {
   font-size: 26px;
   line-height: 101.38%;
   margin-bottom: 26px;
-}
-
-@media (min-width: 834px) {
-  .container {
-    padding: 0 70px;
-  }
-  .h2header {
-    font-size: 1em;
-  }
 }
 
 /* Sasha */
@@ -72,7 +69,6 @@ body {
 .s-header-menu li:first-child {
   margin-right: 13px;
   width: 73px;
-
 }
 
 .s-header-menu li:nth-child(2) {
@@ -175,7 +171,6 @@ body {
   line-height: 150%;
 }
 
-
 .s-about-curs p:nth-child(2) {
   margin-top: 18px;
   margin-bottom: 16px;
@@ -255,7 +250,7 @@ body {
   z-index: -1;
 }
 
-@media (min-width: 834px) {
+/* @media (min-width: 834px) {
   .s-header-top {
     width: 66px;
     height: 37px;
@@ -280,7 +275,7 @@ body {
     align-items: center;
     padding-right: 5px;
   }
-}
+} */
 
 /* Boris */
 
@@ -328,7 +323,7 @@ body {
 .b-what-we-known {
   display: flex;
   flex-direction: column;
-  margin-bottom: 51px;
+  margin-bottom: 54px;
 }
 
 .b-what-we-known-picture {
@@ -358,7 +353,7 @@ body {
   position: relative;
   margin-bottom: 62px;
   justify-content: center;
-  margin-top: 42px;
+  margin-top: 17px;
 }
 
 .v-cursprogram-blackline {
@@ -431,9 +426,20 @@ body {
 .v-cursprogram-teacher-block {
   display: flex;
   position: relative;
-  flex-direction: column;
-  margin-bottom: 75px;
+  /* flex-direction: column; */
+  margin-bottom: 67px;
 }
+
+.v-cursprogram-teacher-block__info {
+  margin-left: 18px;
+  padding-top: 31px;
+}
+
+.title-corection {
+  margin-left: 15px;
+}
+
+.title-corection .v-cursprogram-teacher-block__info-message {}
 
 .v-cursprogram-teacher-block__info span {
   display: none;
@@ -441,14 +447,12 @@ body {
 
 .v-cursprogram-teacher-block__info-message {
   width: 207px;
-  background: #ffffff;
+  /* background: #ffffff; */
   border-radius: 30px;
   z-index: 1;
   font-family: Roboto;
   font-size: 10px;
   line-height: 130%;
-  padding-left: 29%;
-  padding-top: 3px;
 }
 
 .v-cursprogram-teacher-block__foto {
@@ -462,30 +466,27 @@ body {
 
 .v-cursprogram-teacher-block__text {
   display: flex;
-  align-items: center;
-  margin-top: 11px;
-  margin-bottom: 5px;
-  padding: 0 0 0 0;
+  align-items: flex-start;
+  padding-top: 11px;
 }
 
-.v-cursprogram-teacher-block__text span {
+.v-cursprogram-teacher-block_title {
   width: 200px;
-  padding-left: 18px;
 }
 
-.v-cursprogram-teacher-block__text h3 {
+.v-cursprogram-teacher-block_title h3 {
   font-family: Roboto Slab;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 101.38%;
   margin-bottom: 7px;
 }
 
-.v-cursprogram-teacher-block__text p {
+.v-cursprogram-teacher-block_title p {
   font-family: Roboto;
   font-size: 10px;
   line-height: 130%;
+  padding-bottom: 27px;
 }
 
 /* katya */

@@ -1,0 +1,14 @@
+@media (min-width: 1440px) {
+    /* Временные Классы */
+    .t, .m {
+        display: none;
+    }
+    .d {
+        display: flex;
+        justify-content: center;
+    }
+    /* Общие классы */
+    .container {
+        padding: 0 70px;
+    }
+}
