@@ -250,33 +250,6 @@ body {
   z-index: -1;
 }
 
-/* @media (min-width: 834px) {
-  .s-header-top {
-    width: 66px;
-    height: 37px;
-    margin-top: 23px;
-    margin-bottom: 51px;
-  }
-  .s-header-menu-button {
-    display: flex;
-    align-items: center;
-    padding-right: 3px;
-  }
-  .s-header-menu-button p {
-    padding-right: 0;
-    font-family: Roboto;
-    font-size: 12px;
-    line-height: 115%;
-  }
-  .s-header-menu-button-icon {
-    width: 12px;
-    height: 12px;
-    display: flex;
-    align-items: center;
-    padding-right: 5px;
-  }
-} */
-
 /* Boris */
 
 .b-form-of-classes {
@@ -349,10 +322,10 @@ body {
 .v-cursprogram-cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
   position: relative;
   margin-bottom: 62px;
-  justify-content: center;
   margin-top: 17px;
 }
 

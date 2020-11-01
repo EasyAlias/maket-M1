@@ -11,4 +11,22 @@
     .container {
         padding: 0 70px;
     }
+    .s-produser-block h1 {
+        font-size: 46px;
+        width: 628px;
+        padding-bottom: 3px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 101.38%;
+    }
+    .s-produser-block-producer {
+        width: 304px;
+        height: 356px;
+        right: 136px;
+        width: 304px;
+        height: 356px;
+        right: 244px;
+        top: 79px;
+    }
 }
