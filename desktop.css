@@ -9,24 +9,127 @@
     }
     /* Общие классы */
     .container {
-        padding: 0 70px;
+        padding: 0 122px;
+    }
+    .s-header-top {
+        width: 114px;
+        height: 63px;
+        margin-top: 24px;
+        margin-bottom: 113px;
     }
     .s-produser-block h1 {
         font-size: 46px;
         width: 628px;
-        padding-bottom: 3px;
-        font-style: normal;
+        padding-bottom: 16px;
         font-weight: bold;
         font-size: 80px;
         line-height: 101.38%;
     }
     .s-produser-block-producer {
-        width: 304px;
-        height: 356px;
         right: 136px;
         width: 304px;
         height: 356px;
         right: 244px;
-        top: 79px;
+        bottom: -92px
+    }
+    .s-produser-block p {
+        font-size: 20px;
+        line-height: 150%;
+    }
+    .h2header {
+        font-size: 55px;
+        margin-bottom: 55px;
+    }
+    .s-quotes {
+        width: 269px;
+        height: 90px;
+        padding: 10px 0px 10px 10px;
+        margin-bottom: 397px;
+    }
+    .s-about-curs p {
+        font-size: 24px;
+        width: 670px;
+    }
+    .s-about-curs p:nth-child(2) {
+        margin-top: 34px;
+        margin-bottom: 16px;
+        width: 660px;
+    }
+    .b-what-we-known {
+        margin-bottom: 731px;
+    }
+    .v-cursprogram-blackline {
+        height: 12.52px;
+        top: 26px;
+    }
+    .v-cursprogram-cards {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        position: relative;
+        justify-content: flex-start;
+        margin-top: 60px;
+        margin-bottom: 304px;
+    }
+    .v-cursprogram-card {
+        width: 399px;
+        height: 328px;
+        margin-top: 10px;
+        margin: 20.5px 16.5px;
+        border-radius: 29px;
+    }
+    .crads-correction {
+        padding: 0 69px;
+    }
+    .v-cursprogram-card img {
+        width: 400px;
+        height: 158px;
+    }
+    .v-cursprogram-card h3 {
+        font-size: 31px;
+        font-weight: bold;
+        margin-top: 8px;
+        margin-bottom: 1;
+    }
+    .v-cursprogram-card p {
+        font-size: 25px;
+    }
+    .v-cursprogram-teachers {
+        margin-bottom: 257px;
+        margin-left: 52px;
+        margin-top: 85px;
+    }
+    .v-cursprogram-monter {
+        bottom: -96px;
+        right: 47px;
+        width: 253px;
+        height: 199px;
+    }
+    .v-cursprogram-card__text {
+        height: 139px;
+        padding-left: 18px;
+        margin-top: 4px;
+    }
+    .v-cursprogram-teacher-block__foto {
+        width: 145px;
+    }
+    .v-cursprogram-teacher-block_title {
+        width: 370px;
+    }
+    .v-cursprogram-teacher-block_title h3 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .v-cursprogram-teacher-block_title p {
+        font-size: 18px;
+    }
+    .v-cursprogram-teacher-block__info {
+        margin-left: 46px;
+        margin-top: 14px;
+        margin-right: 32px;
+    }
+    .v-cursprogram-teacher-block__info span {
+        right: 90px;
+        top: 52px;
     }
 }

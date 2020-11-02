@@ -394,6 +394,7 @@ body {
   flex-direction: column;
   margin-bottom: 6px;
   padding-top: 6px;
+  margin-bottom: 27px;
 }
 
 .v-cursprogram-teacher-block {
@@ -412,20 +413,18 @@ body {
   margin-left: 15px;
 }
 
-.title-corection .v-cursprogram-teacher-block__info-message {}
-
 .v-cursprogram-teacher-block__info span {
   display: none;
 }
 
 .v-cursprogram-teacher-block__info-message {
   width: 207px;
-  /* background: #ffffff; */
   border-radius: 30px;
   z-index: 1;
   font-family: Roboto;
   font-size: 10px;
   line-height: 130%;
+  margin-top: 28px;
 }
 
 .v-cursprogram-teacher-block__foto {
@@ -459,200 +458,4 @@ body {
   font-family: Roboto;
   font-size: 10px;
   line-height: 130%;
-  padding-bottom: 27px;
-}
-
-/* katya */
-
-.k-bg-review {
-  background-color: #efefef;
-}
-
-.k-review-curse {
-  padding-top: 46px;
-  padding-bottom: 50px;
-}
-
-.k-review-curse-container {
-  /* padding: 100px 0 110px 122px; */
-}
-
-.k-review-curse-container h2 {
-  /* margin-bottom: 60px; */
-  font-family: Roboto Slab;
-  font-weight: bold;
-  font-size: 26px;
-  margin-bottom: 28px;
-  line-height: 101.38%;
-  padding-right: 12px;
-}
-
-.k-review-curse-information {
-  /* width: 791px; */
-  width: 100%;
-  background: #fff;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-  border-radius: 11px;
-  padding: 22px;
-  padding-bottom: 16px;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-}
-
-.k-review-curse-information p {
-  font-family: Roboto;
-  font-size: 10px;
-  line-height: 150%;
-}
-
-.k-review-curse-person {
-  display: flex;
-}
-
-.k-review-curse-person img {
-  width: 80px;
-  height: 84px;
-  padding-right: 13px;
-  padding-top: 12px;
-}
-
-.k-review-curse-person h3 {
-  padding-top: 31px;
-  margin-bottom: 1px;
-}
-
-.k-review-curse-name h3 {
-  font-family: Roboto Slab;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 101.38%;
-}
-
-.k-review-curse-name img {
-  width: 14px;
-  height: 18px;
-}
-
-.k-bg-start-curse {
-  background-color: #9dc9c8;
-  padding: 47px 0;
-}
-
-.k-start-curse-information {
-  /* padding: 185px 0 200px 122px; */
-  padding: 12px 0;
-}
-
-.k-start-curse-information h2 {
-  padding-bottom: 15px;
-  font-family: Roboto Slab;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 101.38%;
-  padding-right: 75px;
-}
-
-.k-start-curse-information h3 {
-  font-family: Roboto;
-  font-size: 12px;
-  line-height: 101.38%;
-  padding-bottom: 4px;
-}
-
-.k-start-curse-information-price {
-  font-family: Roboto;
-  font-size: 37px;
-  line-height: 101.38%;
-  margin-top: 3px;
-  margin-bottom: 37px;
-}
-
-.k-start-curse-information-columns {
-  display: flex;
-}
-
-.k-start-curse-information-columns div {
-  /* width: 300px; */
-}
-
-.k-start-curse-information-columns div:first-child {
-  /* margin-right: 70px; */
-}
-
-.k-start-curse-information-columns p {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 10px;
-  line-height: 101.38%;
-  margin-top: 6px;
-  padding-right: 7px;
-}
-
-.k-bg-footer {
-  background-color: #000;
-  padding: 26px 0px 20px 0px;
-}
-
-.k-footer-information {
-  color: white;
-  box-sizing: border-box;
-}
-
-.k-footer-information-columns {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
-.k-footer-white-rectangle {
-  width: 53px;
-  height: 6px;
-  background-color: #fff;
-}
-
-.k-footer-project-name {
-  font-family: Roboto Slab;
-  margin-bottom: 11px;
-  font-size: 11px;
-  line-height: 110%;
-}
-
-.k-footer-media-icons {
-  display: flex;
-  width: 200px;
-  height: 35px;
-}
-
-.k-footer-media-icons img {
-  width: 15.38px;
-  height: 15.38px;
-  margin-right: 13px;
-}
-
-.k-footer-contacts {
-  margin-top: 18px;
-  margin-bottom: 62px;
-}
-
-.k-footer-contacts img {
-  width: 12.58px;
-  height: 12.58px;
-}
-
-.k-footer-contacts span {
-  font-family: Roboto;
-  font-size: 12px;
-  line-height: 101.38%;
-}
-
-.k-footer-contacts-phone {
-  margin-bottom: 2px;
-}
-
-.k-footer-copyright {
-  font-family: Roboto;
-  font-size: 10px;
-  line-height: 101.38%;
 }
