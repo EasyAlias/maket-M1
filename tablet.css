@@ -19,27 +19,72 @@
         margin-top: 24px;
         margin-bottom: 52px;
     }
+
+    .s-header-menu {
+    margin: 0px 0px 13px 0px;
+    }
+    
+    .s-header-menu li:first-child {
+    margin-right: 13px;
+    width: 94px;
+    }
+    
+    .s-header-menu li:nth-child(2) {
+    width: 77px;
+    margin-right: 17px
+    }
+    
+    .s-header-menu-button {
+    width: 80px;
+    }
+    
+    .s-header-menu-button p {
+    font-size: 12px;
+    padding-top: 4px;
+    }
+    
+    .s-header-menu-button-icon {
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    }
+    
     .s-produser-block h1 {
         font-size: 46px;
         width: 340px;
-        padding-bottom: 3px;
+        padding-bottom: 5px;
     }
     .s-produser-block-producer {
-        width: 183px;
-        height: 194px;
+        width: 176px;
+        height: 206px;
         position: absolute;
-        right: 136px;
+        right: 142px;
+        top: -6px; // Спросить правильно ли это?
     }
     .s-produser-block p {
         font-size: 12px;
         line-height: 149%;
     }
     .s-quotes {
-        width: 269px;
-        height: 90px;
+        width: 270px;
+        height: 96px;
         padding: 10px 0px 10px 10px;
-        margin-bottom: 163px;
+        margin: 104px 0px 100px 169px;
     }
+    /// остановился здесь 
+    .s-quotes p {
+        font-size: 14px;
+        color: #fff;
+        font-weight: 400;
+      }
+      
+      .s-quotes p:last-child {
+        font-family: Roboto;
+        text-align: right;
+        font-size: 10px;
+        margin: 7px 4px 0 0;
+      }
+
     .s-about-curs {
         margin-bottom: 59px;
         margin-top: 31px;
