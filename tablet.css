@@ -48,45 +48,64 @@
     height: 13px;
     margin-right: 5px;
     }
+
+    .s-produser-block {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0px;
+      }
+          
     
     .s-produser-block h1 {
         font-size: 46px;
         width: 340px;
         padding-bottom: 5px;
     }
-    .s-produser-block-producer {
-        width: 176px;
-        height: 206px;
-        position: absolute;
-        right: 142px;
-        top: -6px; // Спросить правильно ли это?
-    }
+
     .s-produser-block p {
         font-size: 12px;
         line-height: 149%;
     }
-    .s-quotes {
-        width: 270px;
-        height: 96px;
-        padding: 10px 0px 10px 10px;
-        margin: 104px 0px 100px 169px;
+
+    .s-produser-block-producer {
+        width: 176px;
+        height: 206px;
+        position: relative;
+        left: 105px;
+        bottom: 5px;
+        
     }
-    /// остановился здесь 
+
+    .ellipse1 {
+        width: 159px;
+        height: 24px;
+        background-color: #efefef;
+        border-radius: 50%;
+        bottom: -12px;
+        right: -1px;
+        align-self: flex-end;
+        z-index: -1;
+      }
+    
+    .s-quotes {
+        width: 265px;
+        height: 96px;
+        padding: 10px 0px 10px 14px;
+        margin: 46px 0px 100px 168px;
+    }
+        /* Тут вопрос про строку. в мобильной и в таблете на разных строчках.
+        как исправить? */
     .s-quotes p {
         font-size: 14px;
-        color: #fff;
         font-weight: 400;
       }
       
       .s-quotes p:last-child {
-        font-family: Roboto;
-        text-align: right;
-        font-size: 10px;
-        margin: 7px 4px 0 0;
+        font-size: 12px;
+        margin: 6px 13px 0 0;
       }
 
     .s-about-curs {
-        margin-bottom: 59px;
         margin-top: 31px;
     }
     .s-about-curs p {
@@ -95,25 +114,54 @@
     }
     .s-about-curs p:nth-child(2) {
         margin-top: 22px;
-        margin-bottom: 16px;
         width: 385px;
     }
     .s-about-curs-operator {
-        width: 183px;
-        height: 183px;
+        width: 181px;
+        height: 182px;
         position: absolute;
         right: 89px;
-        bottom: 49px;
+        bottom: 52px;
     }
+
+    .s-about-curs-operator-ellipse {
+        width: 211px;
+        height: 34px;
+        background-color: #efefef;
+        bottom: -18px;
+      }
+
     .s-timetable-sound-producer {
-        justify-self: flex-start;
+        position: relative;
+        left: 0px;
+        width: 134px;
+        height: 118px;
+        bottom: 113px;
     }
-    .b-form-of-classes__item-title {
-        font-size: 16px;
+
+    .s-timetable__item {
+        margin: 7px 35px 20px 17px;
+      }
+
+    .s-timetable__item:first-child {
+        margin: 7px 41px 0px 210px
     }
-    .s-timetable {
-        padding-bottom: 117px;
-    }
+      
+    .s-timetable__item h3 {
+        font-size: 15px;
+        }
+    
+    .s-timetable__item p {
+        font-size: 11px;
+        }
+
+    .s-timetable-ellipse {
+        width: 109px;
+        height: 19px;
+        }
+    
+    /* <!-- Boris --> */
+
     .b-form-of-classes {
         margin-bottom: 32px;
         padding-top: 46px;

@@ -107,15 +107,30 @@ body {
 }
 
 .s-produser-block-producer {
-  width: 139px;
+  width: 141px;
   height: 165px;
-  position: relative;
+  display: flex;
   align-self: flex-end;
+  margin-right: -3px; 
+  /* здесь выровнял отрицательным margin потому что в контейнере
+  padding: 0px 35px стоит  */
 }
 
 .s-produser-block-producer img {
   width: 100%;
   height: 100%;
+}
+
+.ellipse1 {
+  width: 127px;
+  height: 19px;
+  background-color: #efefef;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -10px;
+  right: 33px;
+  z-index: -1;
+  align-self: flex-end;
 }
 
 .s-produser-block h1 {
@@ -132,15 +147,15 @@ body {
 }
 
 .s-quotes {
-  width: 206px;
+  width: 212px;
   height: 73px;
   background-color: #1e4681;
   border-radius: 3px;
   transform: rotate(-4deg);
-  padding: 10px 0px 10px 10px;
+  padding: 10px 0px 10px 14px;
   display: flex;
   flex-direction: column;
-  margin-left: 6px;
+  margin-left: 2px;
   margin-bottom: 76px;
 }
 
@@ -149,14 +164,14 @@ body {
   font-size: 11px;
   line-height: 130%;
   color: #fff;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .s-quotes p:last-child {
   font-family: Roboto;
   text-align: right;
   font-size: 10px;
-  margin: 7px 4px 0 0;
+  margin: 6px 10px 0px 0px;
 }
 
 .s-about-curs {
@@ -211,7 +226,7 @@ body {
   position: absolute;
   width: 112px;
   height: 96px;
-  right: 40px;
+  right: 41px;
   bottom: 51px;
 }
 
@@ -240,13 +255,13 @@ body {
 }
 
 .s-timetable-ellipse {
-  width: 126px;
-  height: 19px;
+  width: 88px;
+  height: 14px;
   background-color: #efefef;
   border-radius: 50%;
-  position: absolute;
-  bottom: -10px;
-  right: 4px;
+  position: relative;
+  bottom: 11px;
+  right: -16px;
   z-index: -1;
 }
 
