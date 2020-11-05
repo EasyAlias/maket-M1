@@ -268,9 +268,9 @@
 	}
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1440px) {
 	.review_curse {
-		padding: 91px 0 107px 52px;
+		padding: 91px 0 107px;
     }
 
 	.review_curse_title {
@@ -307,7 +307,7 @@
 	}
 
 	.start_curse_wrapper {
-		padding: 163px 0 185px 52px;
+		padding: 163px 0 185px 0;
 	}
 	
 	.start_curse_information {
@@ -351,7 +351,7 @@
 	}
 	
 	.footer_information {
-		margin: 20px 103px 0 52px;
+		margin: 20px 103px 0 0;
 	}
 	
 	.footer_information_list {
