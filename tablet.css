@@ -19,63 +19,50 @@
         margin-top: 24px;
         margin-bottom: 52px;
     }
-
     .s-header-menu {
-    margin: 0px 0px 13px 0px;
+        margin: 0 0 13px 0;
     }
-    
     .s-header-menu li:first-child {
-    margin-right: 13px;
-    width: 94px;
+        margin-right: 13px;
+        width: 94px;
     }
-    
     .s-header-menu li:nth-child(2) {
-    width: 77px;
-    margin-right: 17px
+        width: 77px;
+        margin-right: 17px
     }
-    
     .s-header-menu-button {
-    width: 80px;
+        width: 80px;
     }
-    
     .s-header-menu-button p {
-    font-size: 12px;
-    padding-top: 4px;
+        font-size: 12px;
+        padding-top: 4px;
     }
-    
     .s-header-menu-button-icon {
-    width: 13px;
-    height: 13px;
-    margin-right: 5px;
+        width: 13px;
+        height: 13px;
+        margin-right: 5px;
     }
-
     .s-produser-block {
         display: flex;
         flex-direction: row;
-        margin-bottom: 0px;
-      }
-          
-    
+        margin-bottom: 0;
+    }
     .s-produser-block h1 {
         font-size: 46px;
         width: 340px;
         padding-bottom: 5px;
     }
-
     .s-produser-block p {
         font-size: 12px;
         line-height: 149%;
     }
-
     .s-produser-block-producer {
         width: 176px;
         height: 206px;
         position: relative;
         left: 105px;
         bottom: 5px;
-        
     }
-
     .ellipse1 {
         width: 159px;
         height: 24px;
@@ -85,36 +72,32 @@
         right: -1px;
         align-self: flex-end;
         z-index: -1;
-      }
-    
+    }
     .s-quotes {
         width: 265px;
         height: 96px;
-        padding: 10px 0px 10px 14px;
-        margin: 46px 0px 100px 168px;
+        padding: 10px 0 10px 14px;
+        margin: 46px 0 100px 168px;
     }
-        /* Тут вопрос про строку. в мобильной и в таблете на разных строчках.
-        как исправить? */
     .s-quotes p {
         font-size: 14px;
         font-weight: 400;
-      }
-      
-      .s-quotes p:last-child {
+    }
+    .s-quotes p:last-child {
         font-size: 12px;
         margin: 6px 13px 0 0;
-      }
-
+    }
     .s-about-curs {
         margin-top: 31px;
+        margin-bottom: 61px;
     }
     .s-about-curs p {
         font-size: 14px;
-        width: 352px;
+        width: 54%;
     }
     .s-about-curs p:nth-child(2) {
         margin-top: 22px;
-        width: 385px;
+        width: 56%;
     }
     .s-about-curs-operator {
         width: 181px;
@@ -123,55 +106,91 @@
         right: 89px;
         bottom: 16px;
     }
-
     .s-about-curs-operator-ellipse {
         width: 211px;
         height: 34px;
         background-color: #efefef;
         bottom: -18px;
-      }
-
+    }
     .s-timetable-sound-producer {
-        position: relative;
-        left: 0px;
+        position: absolute;
+        left: 69px;
         width: 134px;
         height: 118px;
-        bottom: 113px;
+        bottom: 35px;
     }
-
+    .s-timetable {
+        margin-bottom: 69px;
+    }
     .s-timetable__item {
         margin: 7px 35px 20px 17px;
-      }
-
-    .s-timetable__item:first-child {
-        margin: 7px 41px 0px 210px
     }
-      
+    .s-timetable__item:first-child {
+        margin: 7px 41px 0 210px
+    }
     .s-timetable__item h3 {
         font-size: 15px;
-        }
-    
+    }
     .s-timetable__item p {
         font-size: 11px;
-        }
-
+    }
     .s-timetable-ellipse {
         width: 109px;
         height: 19px;
-        }
-    
+    }
     /* <!-- Boris --> */
-
+    .b-form-of-classes__item-title {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+    .b-form-of-classes__item {
+        margin-right: 41px;
+    }
+    .form-of-classes__item--correction {
+        margin-left: 21px;
+    }
+    .b-form-of-classes__item p {
+        font: 11px/130% 'Roboto';
+        width: 160px;
+        padding-bottom: 32px;
+    }
     .b-form-of-classes {
         margin-bottom: 32px;
         padding-top: 46px;
-        letter-spacing: 0px;
+        letter-spacing: 0;
+    }
+    .b-form-of-classes-picture {
+        width: 158.7px;
+        height: 92.67px;
+        bottom: -149px;
+        right: 175px;
     }
     .b-form-of-classes-block {
-        margin-bottom: 97px;
+        margin-bottom: 93px;
     }
     .b-what-we-known {
         margin-bottom: 121px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .b-what-we-known ul {
+        padding-left: 9px;
+        margin-bottom: 4px;
+        margin-top: 7px;
+        width: 55%;
+    }
+    .b-what-we-known-list li {
+        font: 14px/150% 'Roboto';
+    }
+    .b-what-we-known-picture {
+        width: 224.7px;
+        height: 108.25px;
+        right: 117px;
+        bottom: 38px;
+        position: absolute;
     }
     .v-cursprogram-blackline {
         width: 44%;
@@ -216,6 +235,9 @@
     .v-cursprogram-card__text {
         height: 40%;
         margin-top: 5px;
+    }
+    .b-form-of-classes__item-title {
+        font-size: 15px;
     }
     /* techers block */
     .teacher__info-message-mobile {

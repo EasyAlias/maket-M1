@@ -107,7 +107,7 @@ body {
   height: 165px;
   display: flex;
   align-self: flex-end;
-  margin-right: -3px; 
+  margin-right: -3px;
   /* здесь выровнял отрицательным margin потому что в контейнере
   padding: 0px 35px стоит  */
 }
@@ -152,7 +152,7 @@ body {
 }
 
 .s-quotes p {
-  font: 400 11px/130% Roboto Slab; 
+  font: 400 11px/130% Roboto Slab;
   color: #fff;
 }
 
@@ -166,12 +166,12 @@ body {
 .s-about-curs {
   display: flex;
   flex-direction: column;
-  margin-bottom: 59px;
+  margin-bottom: 31px;
 }
 
 .s-about-curs p {
   font: 12px/150% Roboto;
-  }
+}
 
 .s-about-curs p:nth-child(2) {
   margin: 18px 0px 14px;
@@ -245,71 +245,6 @@ body {
 }
 
 /* Boris */
-
-.b-form-of-classes {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 32px;
-  padding-top: 9px;
-}
-
-.b-form-of-classes-block {
-  margin-bottom: 48px;
-}
-
-.b-form-of-classes__item p {
-  font-family: Roboto;
-  font-size: 10px;
-  line-height: 130%;
-  width: 178px;
-  padding-bottom: 32px;
-}
-
-.b-form-of-classes__item-title {
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 130%;
-  color: #1e4681;
-  margin-bottom: 3px;
-}
-
-.b-form-of-classes-picture {
-  width: 128px;
-  height: 75px;
-  position: absolute;
-  bottom: -19px;
-  right: 47px;
-}
-
-.b-form-of-classes-picture img {
-  width: 100%;
-  height: 100%;
-}
-
-.b-what-we-known {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 54px;
-}
-
-.b-what-we-known-picture {
-  width: 178.38px;
-  height: 87.88px;
-  align-self: center;
-}
-
-.b-what-we-known ul {
-  padding-left: 8px;
-  margin-bottom: 29px;
-}
-
-.b-what-we-known-list li {
-  font-family: Roboto;
-  font-size: 12px;
-  line-height: 150%;
-  margin-bottom: 1px;
-}
 
 /* Vitalik */
 
@@ -401,7 +336,7 @@ body {
   justify-content: center;
   flex-direction: column;
   margin-top: 37px;
-  margin-bottom: 29.5%;
+  margin-bottom: 29%;
 }
 
 .teachers-titel {
