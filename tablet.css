@@ -13,57 +13,57 @@
     .container {
         padding: 0 70px;
     }
-    .s-header-top {
+    .header-top {
         width: 65px;
         height: 35px;
         margin-top: 24px;
         margin-bottom: 52px;
     }
-    .s-header-menu {
+    .header-menu {
         margin: 0 0 13px 0;
     }
-    .s-header-menu li:first-child {
+    .header-menu-first {
         margin-right: 13px;
         width: 94px;
     }
-    .s-header-menu li:nth-child(2) {
+    .header-menu-second {
         width: 77px;
         margin-right: 17px
     }
-    .s-header-menu-button {
-        width: 80px;
+    .header-menu-button {
+        width: 90px;
     }
-    .s-header-menu-button p {
+    .header-paragraff {
         font-size: 12px;
         padding-top: 4px;
     }
-    .s-header-menu-button-icon {
+    .header-menu-button-icon {
         width: 13px;
         height: 13px;
         margin-right: 5px;
     }
-    .s-produser-block {
+    .produser-block {
         display: flex;
         flex-direction: row;
         margin-bottom: 0;
     }
-    .s-produser-block h1 {
+    .produser-block-h {
         font-size: 46px;
         width: 340px;
         padding-bottom: 5px;
     }
-    .s-produser-block p {
+    .produser-block-p {
         font-size: 12px;
         line-height: 149%;
     }
-    .s-produser-block-producer {
+    .produser-block-producer {
         width: 176px;
         height: 206px;
-        position: relative;
-        left: 105px;
-        bottom: 5px;
+        position: absolute;
+        right: 147px;
+        top: -7px;
     }
-    .ellipse1 {
+    .produser-ellipse {
         width: 159px;
         height: 24px;
         background-color: #efefef;
@@ -73,68 +73,70 @@
         align-self: flex-end;
         z-index: -1;
     }
-    .s-quotes {
+    .quotes {
         width: 265px;
         height: 96px;
         padding: 10px 0 10px 14px;
-        margin: 46px 0 100px 168px;
+        margin: 104px 0 100px 168px;
     }
-    .s-quotes p {
+    .quotes__p-first {
         font-size: 14px;
         font-weight: 400;
+        padding-right: 15px;
     }
-    .s-quotes p:last-child {
+    .quotes__p-second {
         font-size: 12px;
         margin: 6px 13px 0 0;
     }
-    .s-about-curs {
+    .about-curs {
         margin-top: 31px;
         margin-bottom: 61px;
     }
-    .s-about-curs p {
+    .about-curs__p-first {
         font-size: 14px;
-        width: 54%;
+        width: 55%;
     }
-    .s-about-curs p:nth-child(2) {
+    .about-curs__p-second {
+        font-size: 14px;
         margin-top: 22px;
-        width: 56%;
+        width: 55%;
     }
-    .s-about-curs-operator {
+    .about-curs-operator {
         width: 181px;
         height: 182px;
         position: absolute;
         right: 89px;
         bottom: 16px;
     }
-    .s-about-curs-operator-ellipse {
+    .about-ellipse {
         width: 211px;
         height: 34px;
         background-color: #efefef;
         bottom: -18px;
     }
-    .s-timetable-sound-producer {
+    .timetable-sound-producer {
         position: absolute;
         left: 69px;
         width: 134px;
         height: 118px;
         bottom: 35px;
     }
-    .s-timetable {
+    .timetable {
         margin-bottom: 69px;
     }
-    .s-timetable__item {
+    .timetable__item {
         margin: 7px 35px 20px 17px;
     }
-    .s-timetable__item:first-child {
+    .timetable__item-first {
         margin: 7px 41px 0 210px
     }
-    .s-timetable__item h3 {
+    .timetable-h  {
         font-size: 15px;
     }
-    .s-timetable__item p {
+    .timetable-p {
         font-size: 11px;
     }
-    .s-timetable-ellipse {
+    .timetable-ellipse {
         width: 109px;
         height: 19px;
     }

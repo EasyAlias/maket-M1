@@ -17,6 +17,10 @@
   display: none;
 }
 
+.nimg {
+  width: 100%;
+  height: 100%;
+}
 .maketbody {
   opacity: 0.8;
   z-index: 999;
@@ -52,38 +56,38 @@ body {
 
 /* Sasha */
 
-.s-header-top {
+.header-top {
   width: 52px;
   height: 30px;
   margin: 36px 0px;
 }
 
-.s-header-menu {
+.header-menu {
   display: flex;
   align-items: center;
-  margin: 5px 0px 13px;
+  margin: 5px 0 13px;
 }
 
-.s-header-menu li:first-child {
+.header-menu-first {
   margin-right: 13px;
   width: 73px;
 }
 
-.s-header-menu li:nth-child(2) {
+.header-menu-second {
   width: 75px;
 }
 
-.s-header-menu-button {
+.header-menu-button {
   display: flex;
   align-items: center;
   width: 80px;
 }
 
-.s-header-menu-button p {
+.header-paragraff {
   font: 10px/115% Roboto;
 }
 
-.s-header-menu-button-icon {
+.header-menu-button-icon {
   width: 11px;
   height: 10.25px;
   display: flex;
@@ -91,33 +95,22 @@ body {
   margin-right: 4px;
 }
 
-.s-header-menu-button-icon img {
-  width: 100%;
-  height: 100%;
-}
-
-.s-produser-block {
+.produser-block {
   display: flex;
   flex-direction: column;
   margin-bottom: 48px;
 }
 
-.s-produser-block-producer {
+.produser-block-producer {
   width: 141px;
   height: 165px;
   display: flex;
   align-self: flex-end;
   margin-right: -3px;
-  /* здесь выровнял отрицательным margin потому что в контейнере
-  padding: 0px 35px стоит  */
 }
 
-.s-produser-block-producer img {
-  width: 100%;
-  height: 100%;
-}
 
-.ellipse1 {
+.produser-ellipse {
   width: 127px;
   height: 19px;
   background-color: #efefef;
@@ -129,55 +122,56 @@ body {
   align-self: flex-end;
 }
 
-.s-produser-block h1 {
+.produser-block-h {
   font: bold 37px/101.38% Roboto slab;
   margin-bottom: 17px;
 }
 
-.s-produser-block p {
+.produser-block-p {
   font-size: 10px;
   line-height: 149%;
 }
 
-.s-quotes {
+.quotes {
   width: 212px;
   height: 73px;
   background-color: #1e4681;
   border-radius: 3px;
   transform: rotate(-4deg);
-  padding: 10px 0px 10px 14px;
+  padding: 10px 0 10px 14px;
   display: flex;
   flex-direction: column;
-  margin: 0px 0px 76px 2px;
+  margin: 0 0 76px 2px;
 }
 
-.s-quotes p {
+.quotes__p-first {
   font: 400 11px/130% Roboto Slab;
   color: #fff;
 }
 
-.s-quotes p:last-child {
-  font-family: Roboto;
+.quotes__p-second {
   text-align: right;
+  color: #fff;
   font-size: 10px;
-  margin: 6px 10px 0px 0px;
+  margin: 6px 10px 0 0;
 }
 
-.s-about-curs {
+.about-curs {
   display: flex;
   flex-direction: column;
-  margin-bottom: 31px;
+  margin-bottom: 27px;
 }
 
-.s-about-curs p {
+.about-curs__p-first {
   font: 12px/150% Roboto;
 }
 
-.s-about-curs p:nth-child(2) {
-  margin: 18px 0px 14px;
+.about-curs__p-second {
+  font: 12px/150% Roboto;
+  margin: 18px 0 14px;
 }
 
-.s-about-curs-operator {
+.about-curs-operator {
   width: 143px;
   height: 146px;
   display: flex;
@@ -186,12 +180,7 @@ body {
   margin: 0 auto 34px;
 }
 
-.s-about-curs-operator img {
-  width: 100%;
-  height: 100%;
-}
-
-.s-about-curs-operator-ellipse {
+.about-ellipse {
   width: 168px;
   height: 22px;
   background-color: #efefef;
@@ -201,13 +190,13 @@ body {
   z-index: -1;
 }
 
-.s-timetable {
+.timetable {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 42px;
 }
 
-.s-timetable-sound-producer {
+.timetable-sound-producer {
   position: absolute;
   width: 112px;
   height: 96px;
@@ -215,32 +204,27 @@ body {
   bottom: 51px;
 }
 
-.s-timetable-sound-producer img {
-  width: 100%;
-  height: 100%;
+.timetable__item {
+  margin: 0 41px 27px 0;
 }
 
-.s-timetable__item {
-  margin: 0px 41px 27px 0px;
-}
-
-.s-timetable__item h3 {
+.timetable-h {
   font: bold 12px/130% Roboto;
   margin-bottom: 3px;
 }
 
-.s-timetable__item p {
+.timetable-p {
   font: 400 10px/130% Roboto;
 }
 
-.s-timetable-ellipse {
+.timetable-ellipse {
   width: 126px;
   height: 19px;
   background-color: #efefef;
   border-radius: 50%;
   position: absolute;
   bottom: -10px;
-  right: 4px;
+  right: -9px;
   z-index: -1;
 }
 
