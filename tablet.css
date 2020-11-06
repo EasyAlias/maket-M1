@@ -139,36 +139,37 @@
         height: 19px;
     }
     /* <!-- Boris --> */
-    .b-form-of-classes__item-title {
+    .form-of-classes__item-title {
         font-size: 16px;
         margin-bottom: 6px;
     }
-    .b-form-of-classes__item {
+    .form-of-classes__item {
         margin-right: 41px;
     }
     .form-of-classes__item--correction {
         margin-left: 21px;
     }
-    .b-form-of-classes__item p {
+    .form-of-classes__item p {
         font: 11px/130% 'Roboto';
         width: 160px;
         padding-bottom: 32px;
     }
-    .b-form-of-classes {
+    .form-of-classes {
         margin-bottom: 32px;
         padding-top: 46px;
         letter-spacing: 0;
     }
-    .b-form-of-classes-picture {
+    .form-of-classes-picture {
         width: 158.7px;
         height: 92.67px;
         bottom: -149px;
         right: 175px;
     }
-    .b-form-of-classes-block {
+    .form-of-classes-block {
         margin-bottom: 93px;
     }
-    .b-what-we-known {
+  
+    .what-we-known {
         margin-bottom: 121px;
         font-family: Roboto;
         font-style: normal;
@@ -176,16 +177,16 @@
         font-size: 14px;
         line-height: 150%;
     }
-    .b-what-we-known ul {
+    .what-we-known ul {
         padding-left: 9px;
         margin-bottom: 4px;
         margin-top: 7px;
         width: 55%;
     }
-    .b-what-we-known-list li {
+    .what-we-known-list li {
         font: 14px/150% 'Roboto';
     }
-    .b-what-we-known-picture {
+    .what-we-known-picture {
         width: 224.7px;
         height: 108.25px;
         right: 117px;

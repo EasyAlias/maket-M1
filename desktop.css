@@ -138,20 +138,20 @@
         bottom: 19px;
         left: 34px
     }
-    .b-what-we-known {
+    .what-we-known {
         margin-bottom: 731px;
     }
-    .b-form-of-classes {
+    .form-of-classes {
         padding-top: 71px;
         margin-bottom: 189px;
     }
-    .b-form-of-classes__item {
+    .form-of-classes__item {
         width: 25.5%
     }
-    .b-form-of-classes__item-title {
+    .form-of-classes__item-title {
         font-size: 25px;
     }
-    .b-form-of-classes__item p {
+    .form-of-classes__item p {
         font: 18px/130% 'Roboto';
         width: 261px;
         padding-bottom: 32px;
@@ -159,23 +159,23 @@
     .form-of-classes__item--correction {
         margin-left: 37px;
     }
-    .b-form-of-classes-picture {
+    .form-of-classes-picture {
         width: 274px;
         height: 160px;
         bottom: -285px;
         right: 303px;
     }
-    .b-what-we-known {
+    .what-we-known {
         margin-bottom: 216px;
     }
-    .b-what-we-known-list li {
+    .what-we-known-list li {
         font: 24px/150% 'Roboto';
     }
-    .b-what-we-known ul {
+    .what-we-known ul {
         padding-left: 15px;
         margin-top: 0;
     }
-    .b-what-we-known-picture {
+    .what-we-known-picture {
         width: 387px;
         height: 189px;
         right: 203px;
