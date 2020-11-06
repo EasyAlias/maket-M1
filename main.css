@@ -55,15 +55,13 @@ body {
 .s-header-top {
   width: 52px;
   height: 30px;
-  margin-top: 36px;
-  margin-bottom: 36px;
+  margin: 36px 0px;
 }
 
 .s-header-menu {
   display: flex;
   align-items: center;
-  margin-top: 5px;
-  margin-bottom: 13px;
+  margin: 5px 0px 13px;
 }
 
 .s-header-menu li:first-child {
@@ -82,9 +80,7 @@ body {
 }
 
 .s-header-menu-button p {
-  font-family: Roboto;
-  font-size: 10px;
-  line-height: 115%;
+  font: 10px/115% Roboto;
 }
 
 .s-header-menu-button-icon {
@@ -134,10 +130,7 @@ body {
 }
 
 .s-produser-block h1 {
-  font-family: Roboto Slab;
-  font-weight: bold;
-  font-size: 37px;
-  line-height: 101.38%;
+  font: bold 37px/101.38% Roboto slab;
   margin-bottom: 17px;
 }
 
@@ -155,16 +148,12 @@ body {
   padding: 10px 0px 10px 14px;
   display: flex;
   flex-direction: column;
-  margin-left: 2px;
-  margin-bottom: 76px;
+  margin: 0px 0px 76px 2px;
 }
 
 .s-quotes p {
-  font-family: Roboto Slab;
-  font-size: 11px;
-  line-height: 130%;
+  font: 400 11px/130% Roboto Slab; 
   color: #fff;
-  font-weight: 400;
 }
 
 .s-quotes p:last-child {
@@ -181,14 +170,11 @@ body {
 }
 
 .s-about-curs p {
-  font-family: Roboto;
-  font-size: 12px;
-  line-height: 150%;
-}
+  font: 12px/150% Roboto;
+  }
 
 .s-about-curs p:nth-child(2) {
-  margin-top: 18px;
-  margin-bottom: 16px;
+  margin: 18px 0px 14px;
 }
 
 .s-about-curs-operator {
@@ -197,8 +183,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 34px;
-  margin: 0 auto;
+  margin: 0 auto 34px;
 }
 
 .s-about-curs-operator img {
@@ -207,12 +192,12 @@ body {
 }
 
 .s-about-curs-operator-ellipse {
-  width: 165px;
+  width: 168px;
   height: 22px;
   background-color: #efefef;
   border-radius: 50%;
   position: absolute;
-  bottom: -11px;
+  bottom: 23px;
   z-index: -1;
 }
 
@@ -226,7 +211,7 @@ body {
   position: absolute;
   width: 112px;
   height: 96px;
-  right: 41px;
+  right: 40px;
   bottom: 51px;
 }
 
@@ -236,32 +221,26 @@ body {
 }
 
 .s-timetable__item {
-  margin-right: 41px;
-  margin-bottom: 27px;
+  margin: 0px 41px 27px 0px;
 }
 
 .s-timetable__item h3 {
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 130%;
+  font: bold 12px/130% Roboto;
   margin-bottom: 3px;
 }
 
 .s-timetable__item p {
-  font-family: Roboto;
-  font-size: 10px;
-  line-height: 130%;
+  font: 400 10px/130% Roboto;
 }
 
 .s-timetable-ellipse {
-  width: 88px;
-  height: 14px;
+  width: 126px;
+  height: 19px;
   background-color: #efefef;
   border-radius: 50%;
-  position: relative;
-  bottom: 11px;
-  right: -16px;
+  position: absolute;
+  bottom: -10px;
+  right: 4px;
   z-index: -1;
 }
 
