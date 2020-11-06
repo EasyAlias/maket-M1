@@ -11,11 +11,39 @@
     .container {
         padding: 0 122px;
     }
+    .h2header {
+        font-size: 55px;
+        margin-bottom: 55px;
+    }
     .s-header-top {
-        width: 114px;
-        height: 63px;
-        margin-top: 24px;
-        margin-bottom: 113px;
+        width: 112px;
+        height: 66px;
+        margin: 22px 0px 85px 0px;
+    }
+    .s-header-menu {
+        margin: 5px 0px 25px 0px
+    }
+    .s-header-menu li:first-child {
+        margin-right: 12px;
+        width: 174px;
+    }
+    .s-header-menu li:nth-child(2) {
+        width: 145px;
+    }
+    .s-header-menu-button {
+        width: 145px;
+    }
+    .s-header-menu-button p {
+        font-size: 20px;
+    }
+    .s-header-menu-button-icon {
+        width: 22px;
+        height: 21px;
+        margin-right: 7px;
+    }
+    .s-header-menu-button-icon img {
+        width: 100%;
+        height: 100%;
     }
     .s-produser-block h1 {
         font-size: 46px;
@@ -26,25 +54,35 @@
         line-height: 101.38%;
     }
     .s-produser-block-producer {
-        right: 136px;
         width: 304px;
         height: 356px;
-        right: 244px;
-        bottom: -92px
+        left: 140px;
+        top: -12px;
+    }
+    .ellipse1 {
+        width: 274px;
+        height: 41px;
+        bottom: -22px;
+        right: -2px;
     }
     .s-produser-block p {
         font-size: 20px;
         line-height: 150%;
     }
-    .h2header {
-        font-size: 55px;
-        margin-bottom: 55px;
-    }
     .s-quotes {
-        width: 269px;
-        height: 90px;
-        padding: 10px 0px 10px 10px;
-        margin-bottom: 397px;
+        width: 457px;
+        height: 171px;
+        padding: 21px 0px 10px 25px;
+        margin: 75px 0px 175px 289px;
+    }
+    .s-quotes p {
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .s-quotes p:last-child {
+        text-align: right;
+        font-size: 20px;
+        margin: 5px 21px 0px 0px;
     }
     .s-about-curs p {
         font-size: 24px;
@@ -54,6 +92,51 @@
         margin-top: 34px;
         margin-bottom: 16px;
         width: 660px;
+    }
+    .s-about-curs-operator {
+        width: 314px;
+        height: 315px;
+        right: 153px;
+        bottom: 37px;
+    }
+    .s-about-curs-operator-ellipse {
+        width: 366px;
+        height: 59px;
+        bottom: -30px;
+    }
+    .s-timetable {
+        margin: 0px 0px 260px 0px;
+    }
+    .s-timetable-sound-producer {
+        position: absolute;
+        width: 232px;
+        height: 203px;
+        left: 121px;
+        top: -2px
+    }
+    .s-timetable-sound-producer img {
+        width: 100%;
+        height: 100%;
+    }
+    .s-timetable__item:first-child {
+        margin: 68px 41px 0px 363px
+    }
+    .s-timetable__item {
+        margin: 68px 35px 0px 64px;
+    }
+    .s-timetable__item h3 {
+        font-size: 25px;
+        margin-bottom: 9px;
+        font-weight: 700;
+    }
+    .s-timetable__item p {
+        font-size: 18px;
+    }
+    .s-timetable-ellipse {
+        width: 189px;
+        height: 32px;
+        bottom: 19px;
+        left: 34px
     }
     .b-what-we-known {
         margin-bottom: 731px;
