@@ -130,8 +130,13 @@
 	margin-right: 7px;
 }
 
+.footer_contacts_link {
+	text-decoration: none;
+}
+
 .footer_contacts_text {
-  	font: 12px/101.38% 'Roboto';
+	font: 12px/101.38% 'Roboto';
+	color: #fff;
 }
 
 .footer_mail {
