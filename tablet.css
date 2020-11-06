@@ -63,11 +63,11 @@
     .s-timetable-sound-producer {
         justify-self: flex-start;
     }
-    .b-form-of-classes__item-title {
-        font-size: 16px;
-    }
     .s-timetable {
         padding-bottom: 117px;
+    }
+    .b-form-of-classes__item-title {
+        font-size: 16px;
     }
     .b-form-of-classes {
         margin-bottom: 32px;
@@ -79,6 +79,11 @@
     }
     .b-what-we-known {
         margin-bottom: 121px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
     }
     .v-cursprogram-blackline {
         width: 44%;
