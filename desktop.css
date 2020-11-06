@@ -18,10 +18,13 @@
     .header-top {
         width: 112px;
         height: 66px;
-        margin: 22px 0px 85px 0px;
+        margin: 22px 0 85px 0;
     }
     .header-menu {
-        margin: 5px 0px 25px 0px
+        margin: 5px 0 25px 0
+    }
+    .header-menu-button {
+        width: 145px;
     }
     .header-menu-first {
         margin-right: 12px;
@@ -29,9 +32,7 @@
     }
     .header-menu-second {
         width: 145px;
-    }
-    .header-menu-button {
-        width: 145px;
+        margin-right: 16px;
     }
     .header-paragraff {
         font-size: 20px;
@@ -115,10 +116,10 @@
         top: -2px
     }
     .timetable__item {
-        margin: 68px 35px 0px 64px;
+        margin: 68px 35px 0 64px;
     }
     .timetable__item-first {
-        margin: 68px 41px 0px 363px
+        margin: 68px 41px 0 363px
     }
     .timetable-h {
         font-size: 25px;
@@ -178,11 +179,11 @@
         bottom: 48px;
         position: absolute;
     }
-    .v-cursprogram-blackline {
+    .cursprogram-blackline {
         height: 12.52px;
         top: 26px;
     }
-    .v-cursprogram-cards {
+    .cursprogram-cards {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
@@ -191,7 +192,7 @@
         margin-top: 60px;
         margin-bottom: 192px;
     }
-    .v-cursprogram-card {
+    .cursprogram-card {
         width: 399px;
         height: 328px;
         margin-top: 10px;
@@ -214,41 +215,34 @@
     .cursprogram-card__info {
         font-size: 25px;
     }
-    .v-cursprogram-teachers {
+    .cursprogram-teachers {
         margin-bottom: 257px;
         margin-left: 52px;
         margin-top: 85px;
     }
-    .v-cursprogram-monter {
+    .cursprogram-monter {
         bottom: 23px;
         right: 47px;
         width: 253px;
         height: 199px;
     }
-    .v-cursprogram-card__text {
+    .cursprogram-card__text {
         height: 139px;
         padding-left: 18px;
         margin-top: 4px;
     }
-    .v-cursprogram-teacher-block__foto {
+    .cursprogram-teacher-block__foto {
         width: 145px;
     }
-    .v-cursprogram-teacher-block_title {
+    .cursprogram-teacher-block_title {
         width: 370px;
     }
-    .v-cursprogram-teacher-block_title h3 {
-        font-size: 30px;
-        margin-bottom: 15px;
-    }
-    .v-cursprogram-teacher-block_title p {
-        font-size: 18px;
-    }
-    .v-cursprogram-teacher-block__info {
+    .cursprogram-teacher-block__info {
         margin-left: 46px;
         margin-top: 14px;
         margin-right: 32px;
     }
-    .v-cursprogram-teacher-block__info span {
+    .cursprogram-teacher-block__info span {
         right: 90px;
         top: 52px;
     }
@@ -283,6 +277,7 @@
         width: 28px;
         height: 28px;
         right: 15.5%;
+        top: 0;
     }
     .teacher__text {
         margin-top: 4%;

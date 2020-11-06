@@ -23,12 +23,12 @@
         margin: 0 0 13px 0;
     }
     .header-menu-first {
-        margin-right: 13px;
+        margin-right: 17px;
         width: 94px;
     }
     .header-menu-second {
         width: 77px;
-        margin-right: 17px
+        margin-right: 5px
     }
     .header-menu-button {
         width: 90px;
@@ -130,7 +130,7 @@
     .timetable__item-first {
         margin: 7px 41px 0 210px
     }
-    .timetable-h  {
+    .timetable-h {
         font-size: 15px;
     }
     .timetable-p {
@@ -191,10 +191,10 @@
         bottom: 31px;
         position: absolute;
     }
-    .v-cursprogram-blackline {
+    .cursprogram-blackline {
         width: 44%;
     }
-    .v-cursprogram-cards {
+    .cursprogram-cards {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
@@ -203,7 +203,7 @@
         margin-top: 40px;
         padding-bottom: 112px;
     }
-    .v-cursprogram-card {
+    .cursprogram-card {
         width: 234px;
         height: 190px;
         margin: 1.6% 1.16%;
@@ -216,7 +216,7 @@
         width: 100%;
         height: 47.5%;
     }
-    .v-cursprogram-monter {
+    .cursprogram-monter {
         display: block;
         position: absolute;
         bottom: 61px;
@@ -231,7 +231,7 @@
     .cursprogram-card__info {
         font-size: 14px;
     }
-    .v-cursprogram-card__text {
+    .cursprogram-card__text {
         height: 40%;
         margin-top: 5px;
     }
@@ -246,7 +246,7 @@
         width: 32%;
     }
     .teachers-titel {
-        margin-left: 0px;
+        margin-left: 0;
     }
     .teacher__foto-pic {
         margin-top: 12px;
@@ -272,6 +272,7 @@
         width: 16px;
         height: 16px;
         right: 21px;
+        top: 41px;
     }
     .teacher__text {
         margin-top: 4%;
