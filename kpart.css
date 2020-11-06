@@ -268,9 +268,9 @@
 	}
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1440px) {
 	.review_curse {
-		padding: 91px 0 107px 52px;
+		padding: 91px 0 107px;
     }
 
 	.review_curse_title {
@@ -279,7 +279,7 @@
 	}
 	  
 	.review_curse_information {
-		width: 64%;
+		width: 67%;
 		box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
 		border-radius: 30px;
 		padding: 45px 45px 30px 45px;
@@ -307,15 +307,15 @@
 	}
 
 	.start_curse_wrapper {
-		padding: 163px 0 185px 52px;
+		padding: 163px 0 185px 0;
 	}
 	
 	.start_curse_information {
-		padding: 16px 0;
+		padding: 16px 0 0;
 	}
 	
 	.start_curse_title {
-		padding-bottom: 65px;
+		padding-bottom: 70px;
 		font-size: 55px;
 	}
 	
@@ -325,7 +325,7 @@
 	
 	.start_curse_price {
 		font-size: 80px;
-		margin-bottom: 76px;
+		margin-bottom: 75px;
 	}
 
 	.start_curse_list {
@@ -343,15 +343,15 @@
 	}
 	
 	.start_curse_mr {
-		margin-right: 55px;
+		margin-right: 80px;
 	}
 	
 	.footer_wrapper {
-		padding: 30px 0 27px 0;
+		padding: 27px 0 47px 0;
 	}
 	
 	.footer_information {
-		margin: 20px 103px 0 52px;
+		margin: 20px 52px 0 0;
 	}
 	
 	.footer_information_list {
@@ -371,16 +371,16 @@
 	.footer_media_item {
 		width: 33px;
 		height: 33px;
-		margin-right: 20px;
+		margin-right: 21px;
 	}
 	
 	.footer_contacts {
-		margin-top: 2px;
+		margin-top: 5px;
 		margin-right: 0;
 	}
 
 	.footer_contacts_phone {
-		margin-bottom: 17px;
+		margin-bottom: 19px;
 	}
 	
 	.footer_contacts_icon {

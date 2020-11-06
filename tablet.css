@@ -19,78 +19,179 @@
         margin-top: 24px;
         margin-bottom: 52px;
     }
+    .s-header-menu {
+        margin: 0 0 13px 0;
+    }
+    .s-header-menu li:first-child {
+        margin-right: 13px;
+        width: 94px;
+    }
+    .s-header-menu li:nth-child(2) {
+        width: 77px;
+        margin-right: 17px
+    }
+    .s-header-menu-button {
+        width: 80px;
+    }
+    .s-header-menu-button p {
+        font-size: 12px;
+        padding-top: 4px;
+    }
+    .s-header-menu-button-icon {
+        width: 13px;
+        height: 13px;
+        margin-right: 5px;
+    }
+    .s-produser-block {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0;
+    }
     .s-produser-block h1 {
         font-size: 46px;
         width: 340px;
-        padding-bottom: 3px;
-    }
-    .s-produser-block-producer {
-        width: 183px;
-        height: 194px;
-        position: absolute;
-        right: 136px;
+        padding-bottom: 5px;
     }
     .s-produser-block p {
         font-size: 12px;
         line-height: 149%;
     }
+    .s-produser-block-producer {
+        width: 176px;
+        height: 206px;
+        position: relative;
+        left: 105px;
+        bottom: 5px;
+    }
+    .ellipse1 {
+        width: 159px;
+        height: 24px;
+        background-color: #efefef;
+        border-radius: 50%;
+        bottom: -12px;
+        right: -1px;
+        align-self: flex-end;
+        z-index: -1;
+    }
     .s-quotes {
-        width: 269px;
-        height: 90px;
-        padding: 10px 0px 10px 10px;
-        margin-bottom: 163px;
+        width: 265px;
+        height: 96px;
+        padding: 10px 0 10px 14px;
+        margin: 46px 0 100px 168px;
+    }
+    .s-quotes p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .s-quotes p:last-child {
+        font-size: 12px;
+        margin: 6px 13px 0 0;
     }
     .s-about-curs {
-        margin-bottom: 59px;
         margin-top: 31px;
+        margin-bottom: 61px;
     }
     .s-about-curs p {
         font-size: 14px;
-        width: 352px;
+        width: 54%;
     }
     .s-about-curs p:nth-child(2) {
         margin-top: 22px;
-        margin-bottom: 16px;
-        width: 385px;
+        width: 56%;
     }
     .s-about-curs-operator {
-        width: 183px;
-        height: 183px;
+        width: 181px;
+        height: 182px;
         position: absolute;
         right: 89px;
-        bottom: 49px;
+        bottom: 16px;
+    }
+    .s-about-curs-operator-ellipse {
+        width: 211px;
+        height: 34px;
+        background-color: #efefef;
+        bottom: -18px;
     }
     .s-timetable-sound-producer {
-        justify-self: flex-start;
+        position: absolute;
+        left: 69px;
+        width: 134px;
+        height: 118px;
+        bottom: 35px;
     }
     .s-timetable {
-        padding-bottom: 117px;
+        margin-bottom: 69px;
     }
-    .b-form-of-classes__item-title {
+    .s-timetable__item {
+        margin: 7px 35px 20px 17px;
+    }
+    .s-timetable__item:first-child {
+        margin: 7px 41px 0 210px
+    }
+    .s-timetable__item h3 {
+        font-size: 15px;
+    }
+    .s-timetable__item p {
+        font-size: 11px;
+    }
+    .s-timetable-ellipse {
+        width: 109px;
+        height: 19px;
+    }
+    /* <!-- Boris --> */
+    .form-of-classes__item-title {
         font-size: 16px;
+        margin-bottom: 6px;
     }
-    .b-form-of-classes {
+    .form-of-classes__item {
+        margin-right: 41px;
+    }
+    .form-of-classes__item--correction {
+        margin-left: 21px;
+    }
+    .form-of-classes__item p {
+        font: 11px/130% 'Roboto';
+        width: 160px;
+        padding-bottom: 32px;
+    }
+    .form-of-classes {
         margin-bottom: 32px;
         padding-top: 46px;
-        letter-spacing: 0px;
-        flex-direction: row;
-        flex-wrap: nowrap;  
+        letter-spacing: 0;
     }
-    .b-form-of-classes-block {
-        margin-bottom: 97px;
-        position: relative;
-        
+    .form-of-classes-picture {
+        width: 158.7px;
+        height: 92.67px;
+        bottom: -149px;
+        right: 175px;
     }
-    /* .b-form-of-classes__item{
-        margin-right: 23px;
-    } */
-    .b-what-we-known {
+    .form-of-classes-block {
+        margin-bottom: 93px;
+    }
+  
+    .what-we-known {
         margin-bottom: 121px;
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
         line-height: 150%;
+    }
+    .what-we-known ul {
+        padding-left: 9px;
+        margin-bottom: 4px;
+        margin-top: 7px;
+        width: 55%;
+    }
+    .what-we-known-list li {
+        font: 14px/150% 'Roboto';
+    }
+    .what-we-known-picture {
+        width: 224.7px;
+        height: 108.25px;
+        right: 117px;
+        bottom: 38px;
+        position: absolute;
     }
     .v-cursprogram-blackline {
         width: 44%;
@@ -102,82 +203,107 @@
         position: relative;
         justify-content: flex-start;
         margin-top: 40px;
-        margin-bottom: 176px;
+        padding-bottom: 112px;
     }
     .v-cursprogram-card {
-        width: 230px;
+        width: 234px;
         height: 190px;
-        margin-top: 10px;
-        margin: 12px 11px;
+        margin: 1.6% 1.16%;
         border-radius: 17px;
     }
     .crads-correction {
         padding: 0 39px;
     }
-    .v-cursprogram-card img {
-        width: 230px;
-        height: 90px;
+    .cursprogram-pict {
+        width: 100%;
+        height: 47.5%;
     }
     .v-cursprogram-monter {
         display: block;
         position: absolute;
-        bottom: -52px;
+        bottom: 61px;
         right: 28px;
         width: 147px;
         height: 115px;
     }
-    .v-cursprogram-card h3 {
+    .cursprogram-card__header {
         font-size: 17px;
         font-weight: bold;
     }
-    .v-cursprogram-card p {
+    .cursprogram-card__info {
         font-size: 14px;
     }
     .v-cursprogram-card__text {
-        height: 76px;
+        height: 40%;
         margin-top: 5px;
     }
-    .v-cursprogram-teachers {
-        flex-direction: row;
-        margin-left: 31px;
-        margin-top: 39px;
-        margin-bottom: 115px;
+    .b-form-of-classes__item-title {
+        font-size: 15px;
     }
-    .v-cursprogram-teacher-block__info span {
-        width: 16px;
-        height: 16px;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        right: 47px;
-        top: 34px;
-        border-radius: 50%;
-        background: #ffffff;
-        font-size: 14px;
-        line-height: 130%;
-        box-shadow: 0.579167px 0.579167px 4.63333px #5784C8;
-    }
-    .v-cursprogram-teacher-block__info:hover .v-cursprogram-teacher-block__info-message {
-        display: block;
-    }
-    .v-cursprogram-teacher-block__info-message {
-        width: 207px;
-        background: #ffffff;
-        border-radius: 30px;
-        z-index: 1;
-        font-size: 10px;
+    /* techers block */
+    .teacher__info-message-mobile {
         display: none;
     }
-    .v-cursprogram-teacher-block__foto {
-        width: 85px;
+    .teacher__foto {
+        width: 32%;
     }
-    .v-cursprogram-teacher-block__info {
-        margin-left: 25px;
-        margin-top: 3px;
-        margin-right: 32px;
+    .teachers-titel {
+        margin-left: 0px;
     }
-    .v-cursprogram-teacher-block_title h3 {
+    .teacher__foto-pic {
+        margin-top: 12px;
+    }
+    .teachers {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 5.4%;
+        margin-bottom: 12.5%;
+        margin-left: 3.5%;
+        margin-right: -1.3%;
+    }
+    .teacher__header {
         font-size: 17px;
+        font-family: Roboto Slab;
+        line-height: 101.38%;
+        padding-right: 34px;
+        margin-top: 40px;
+    }
+    .teacher__info-btn {
+        display: flex;
+        font-size: 10.425px;
+        width: 16px;
+        height: 16px;
+        right: 21px;
+    }
+    .teacher__text {
+        margin-top: 4%;
+    }
+    .card--right {
+        margin-top: 6.4%;
+    }
+    .teacher__info-message {
+        font-size: 10px;
+        font-weight: 400;
+        border-radius: 19px;
+    }
+    .info-message--left {
+        width: 231px;
+        right: -30px;
+        bottom: -208px;
+        height: 159px;
+        padding: 17px 12px 0 13px;
+        box-sizing: border-box;
+        font-size: 9.8px;
+        line-height: 131%;
+    }
+    .info-message--right {
+        width: 231px;
+        right: -37px;
+        height: 219px;
+        top: -248px;
+        padding: 13px 3px 0 13px;
+        box-sizing: border-box;
+        font-size: 9.8px;
+        line-height: 131%;
     }
 }
