@@ -73,10 +73,17 @@
         margin-bottom: 32px;
         padding-top: 46px;
         letter-spacing: 0px;
+        flex-direction: row;
+        flex-wrap: nowrap;  
     }
     .b-form-of-classes-block {
         margin-bottom: 97px;
+        position: relative;
+        
     }
+    /* .b-form-of-classes__item{
+        margin-right: 23px;
+    } */
     .b-what-we-known {
         margin-bottom: 121px;
         font-family: Roboto;
